@@ -132,13 +132,15 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .draw-btn {}
 
 .tnc-txt-div {
-    display: block;
+    display: inline-block;
     background: url(https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_t_c_box.png);
     width: 1560px;
     height: 512px;
-    margin: 0 auto 0 auto;
+    margin: 408px auto 0 auto;
 }
 
 .tnc-txt-div-outer {
-    margin: 100px 0 0 0;
+    text-align: center;
+    /* margin: 100px 0 0 0; */
+    /* display: inline-block; */
 }
