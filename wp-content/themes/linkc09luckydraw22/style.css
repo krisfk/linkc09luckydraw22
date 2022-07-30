@@ -103,6 +103,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     background: url(https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_tap_bg.jpg);
     background-size: cover;
     /* max-width: 100%; */
+    position: relative;
 }
 
-.img-top-img {}
+.img-top-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
