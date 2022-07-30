@@ -114,6 +114,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 1506px;
 }
 
-.draw-btn-a {}
+.draw-btn-a {
+    position: absolute;
+    top: 726px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 
 .draw-btn {}
