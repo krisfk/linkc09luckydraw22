@@ -27,6 +27,9 @@ get_header(); ?>
 
     <img class="img-top-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_top_img.png" alt="">
 
+    <a href="draw-btn-a">
+        <img class="draw-btn" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_draw_btn.png" alt="">
+    </a>
 </div>
 <?php
 
