@@ -108,7 +108,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .img-top-img {
     position: absolute;
-    top: 50%;
+    top: 435px;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 1506px;
 }
