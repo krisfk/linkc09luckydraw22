@@ -21,7 +21,12 @@ get_header(); ?>
     <h1 class="page-title"><?php single_post_title(); ?></h1>
 </header><!-- .page-header -->
 <?php endif; ?>
-fdsf
+
+
+<div class="main-container">
+
+
+</div>
 <?php
 
 get_footer();

@@ -95,3 +95,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
  * Editor Font Sizes....Editor Font Sizes.
  * Measure..............The width of a line of text, in characters.
  */
+
+.main-container {
+    display: block;
+    width: 2000px;
+    height: 1200px;
+}
