@@ -29,7 +29,7 @@ get_header(); ?>
 
 
     <div class="tnc-txt-div-outer">
-        <div class="tnc-txt-div">
+        <div class="tnc-txt-div text-start">
 
             <h1>「勁抽消費二重賞」抽獎活動條款與細則</h1>
 
