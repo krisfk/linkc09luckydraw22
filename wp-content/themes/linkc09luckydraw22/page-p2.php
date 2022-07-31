@@ -261,6 +261,10 @@ get_header(); ?>
 
             </div>
         </div>
+        <div>
+
+            我已閱讀條款及細則
+        </div>
     </div>
 </div>
 <?php
