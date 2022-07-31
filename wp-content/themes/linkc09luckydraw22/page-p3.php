@@ -28,7 +28,7 @@ get_header(); ?>
     <img class="img-top-img-2" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_top_img.png" alt="">
 
 
-    <div class="text-center">
+    <div class="text-center page3-form-outer">
 
         <div class="page3-form">
             <table>
