@@ -256,6 +256,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .form-control {
     line-height: 2.5 !important;
+    border-radius: 1rem !important;
+    border-width: 2rem !important;
 }
 
 .error {
