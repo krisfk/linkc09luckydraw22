@@ -264,7 +264,7 @@ get_header(); ?>
         <div class="mt-4">
 
 
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <input class="form-check-input" type="checkbox" value="" class="agree-checkbox" id="flexCheckChecked">
             <label class="form-check-label orange" for="flexCheckChecked">
                 我已閱讀條款及細則
             </label>
@@ -279,6 +279,22 @@ get_header(); ?>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+$(function() {
+
+    $('.agree-btn-a').click(function() {
+
+        if ($('.agree-checkbox').is(':checked')) {
+
+            window.location = "<?php echo get_site_url();?>/p3";
+        } else {
+            alert('not check');
+        }
+    })
+
+})
+</script>
 <?php
 
 get_footer();
