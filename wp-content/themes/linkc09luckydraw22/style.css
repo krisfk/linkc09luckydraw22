@@ -152,11 +152,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .tnc-txt-div-inner {
-    height: 425px;
+    height: 452px;
     overflow-y: scroll;
-    margin: 3rem 1.5rem;
+    margin: 2rem 1.5rem;
     overflow-x: hidden;
-    padding: 0 1rem;
+    padding: 0 4rem;
     font-size: 1.2rem;
 }
 
