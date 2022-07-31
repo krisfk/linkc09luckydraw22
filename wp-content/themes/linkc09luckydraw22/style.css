@@ -224,3 +224,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 1.5rem !important;
     border: 3px solid #008896 !important;
 }
+
+.form-check-input:checked {
+    background-color: #fff !important;
+}
+
+.form-check-input:checked[type='checkbox'] {
+    background-image: url(https://linkc09luckydraw22.com/wp-content/uploads/2022/07/tick-icon.png) !important;
+    background-size: 100% 100% !important;
+}
