@@ -29,20 +29,22 @@ get_header(); ?>
 
 
 
-    <table>
-        <tr>
-            <td>領展會員號碼：</td>
-            <td><input type="text" class="form-control"></td>
-        </tr>
-        <tr>
-            <td>登記電話頭4位數字：</td>
-            <td><input type="text" class="form-control"></td>
-        </tr>
-    </table>
-    <div class="mt-4">
+    <div class="page3-form">
+        <table>
+            <tr>
+                <td>領展會員號碼：</td>
+                <td><input type="text" class="form-control"></td>
+            </tr>
+            <tr>
+                <td>登記電話頭4位數字：</td>
+                <td><input type="text" class="form-control"></td>
+            </tr>
+        </table>
+        <div class="mt-4">
 
-        <a href="javascript:void(0);" class="agree-btn-a"><img
-                src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_ok_btn.png" alt=""></a>
+            <a href="javascript:void(0);" class="agree-btn-a"><img
+                    src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_ok_btn.png" alt=""></a>
+        </div>
     </div>
 
 
