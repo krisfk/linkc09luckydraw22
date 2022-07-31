@@ -278,6 +278,8 @@ get_header(); ?>
                     src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_ok_btn.png" alt=""></a>
         </div>
     </div>
+    <img class="d-none" src="url(https://linkc09luckydraw22.com/wp-content/uploads/2022/07/tick-icon.png) !important"
+        alt="">
 </div>
 
 <script type="text/javascript">
