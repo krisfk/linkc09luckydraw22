@@ -33,14 +33,18 @@ get_header(); ?>
         <div class="page3-form">
             <table>
                 <tr>
-                    <td class="text-end orange">領展會員號碼：</td>
-                    <td><input type="text" class="form-control" placeholder="請輸入8位數會員號碼">
+                    <td class="text-end orange">
+                        <label for="member_id">領展會員號碼：</label>
+                    </td>
+                    <td><input id="member_id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
                         <div class="error">*請確定己輸入8位數會員號碼</div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="text-end orange">登記電話頭4位數字：</td>
-                    <td><input type="text" class="form-control" placeholder="如1234-5678，請填1234">
+                    <td class="text-end orange">
+                        <label for="tel-four-num">登記電話頭4位數字：</label>
+                    </td>
+                    <td><input id="tel-four-num" type="text" class="form-control" placeholder="如1234-5678，請填1234">
                         <div class="error">*請確定己輸入登記電話頭4位數宇</div>
                     </td>
                 </tr>
