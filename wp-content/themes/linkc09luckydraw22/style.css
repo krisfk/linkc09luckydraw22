@@ -137,7 +137,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 1560px;
     height: 512px;
     margin: 408px auto 0 auto;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .tnc-txt-div-outer {
