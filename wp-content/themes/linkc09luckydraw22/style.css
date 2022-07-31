@@ -238,10 +238,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .page3-form {
     display: inline-block;
     margin: 446px 0 0 0;
+    font-size: 2.5rem;
 }
 
 .page3-form table td {
     vertical-align: top;
+    padding: 0 0 1rem 0;
 }
 
 .page3-form-outer {
@@ -252,7 +254,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     border: 3px solid #008896 !important;
 }
 
+.form-control {
+    line-height: 2.5 !important;
+}
+
 .error {
     color: #f00;
     text-align: left;
+    font-size: 1.8rem;
 }
