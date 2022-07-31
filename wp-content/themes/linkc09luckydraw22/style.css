@@ -220,7 +220,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .form-check-input {
-    width: 1.5em;
-    height: 1.5rem;
-    border: 3px solid #008896;
+    width: 1.5em !important;
+    height: 1.5rem !important;
+    border: 3px solid #008896 !important;
 }
