@@ -40,7 +40,7 @@ get_header(); ?>
                 </tr>
                 <tr>
                     <td class="text-end orange">登記電話頭4位數字：</td>
-                    <td><input type="text" class="form-control" placeholder="請輸入8位數會員號碼">
+                    <td><input type="text" class="form-control" placeholder="如1234-5678，請填1234">
                         <div class="error">*請確定己輸入登記電話頭4位數宇</div>
                     </td>
                 </tr>
