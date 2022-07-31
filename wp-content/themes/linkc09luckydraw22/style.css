@@ -254,4 +254,5 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .error {
     color: #f00;
+    text-align: left;
 }
