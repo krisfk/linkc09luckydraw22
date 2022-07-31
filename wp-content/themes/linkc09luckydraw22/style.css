@@ -159,35 +159,35 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 /* width */
 
-::-webkit-scrollbar {
+.tnc-txt-div-inner ::-webkit-scrollbar {
     width: 10px;
 }
 
 
 /* button */
 
-::-webkit-scrollbar-button {
+.tnc-txt-div-inner ::-webkit-scrollbar-button {
     background: #222;
 }
 
 
 /* Handle */
 
-::-webkit-scrollbar-thumb {
+.tnc-txt-div-inner ::-webkit-scrollbar-thumb {
     background: #333;
 }
 
 
 /* Handle on hover */
 
-::-webkit-scrollbar-thumb:hover {
+.tnc-txt-div-inner ::-webkit-scrollbar-thumb:hover {
     background: #666;
 }
 
 
 /* Track */
 
-::-webkit-scrollbar-track {
+.tnc-txt-div-inner ::-webkit-scrollbar-track {
     background: #000;
 }
 
@@ -199,13 +199,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 /* Corner */
 
-::-webkit-scrollbar-corner {
+.tnc-txt-div-inner ::-webkit-scrollbar-corner {
     background: #999;
 }
 
 
 /* Resizer */
 
-::-webkit-resizer {
+.tnc-txt-div-inner ::-webkit-resizer {
     background: #111;
 }
