@@ -272,7 +272,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="mt-5">
+        <div class="mt-4">
 
             <a href="javascript:void(0);" class="agree-btn-a"><img
                     src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_ok_btn.png" alt=""></a>
