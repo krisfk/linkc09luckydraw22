@@ -269,6 +269,13 @@ get_header(); ?>
                 我已閱讀條款及細則
             </label>
 
+
+
+        </div>
+        <div class="mt-5">
+
+            <a href="javascript:void(0);" class="agree-btn-a"><img
+                    src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_ok_btn.png" alt=""></a>
         </div>
     </div>
 </div>
