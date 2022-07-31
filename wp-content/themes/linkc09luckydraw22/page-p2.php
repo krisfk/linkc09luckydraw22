@@ -268,12 +268,12 @@ get_header(); ?>
             <label class="form-check-label orange" for="flexCheckChecked" style="font-size:1.5rem">
                 我已閱讀條款及細則
             </label>
-            <div class="error text-center" style="font-size:1.5rem">前往下一步必須同意條款及細則</div>
+            <div class="error text-center mt-1" style="font-size:1.5rem">前往下一步必須同意條款及細則</div>
 
 
 
         </div>
-        <div class="mt-4">
+        <div class="mt-1">
 
             <a href="javascript:void(0);" class="agree-btn-a"><img
                     src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_ok_btn.png" alt=""></a>
