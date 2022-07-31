@@ -72,13 +72,13 @@ $(function() {
         $('.error').css({
             'opacity': '0'
         });
-        if (!(/^[0-9]{8}$/.test(phone))) {
+        if (!(/^[0-9]{8}$/.test(member_id))) {
             $('.error').eq(0).css({
                 'opacity': '1'
             });
         }
 
-        if (!(/^[0-9]{4}$/.test(phone))) {
+        if (!(/^[0-9]{4}$/.test(tel_four_num))) {
             $('.error').eq(1).css({
                 'opacity': '1'
             });
