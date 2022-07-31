@@ -237,7 +237,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .page3-form {
     display: inline-block;
-    margin: 446px 0 0 0;
+    margin: 500px 0 0 0;
     font-size: 2.5rem;
 }
 
@@ -257,6 +257,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .page3-form input {
     border: 4px solid #008896 !important;
     font-size: 2.5rem;
+    width: 700px;
 }
 
 .form-control {
@@ -269,4 +270,5 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     color: #f00;
     text-align: left;
     font-size: 1.8rem;
+    margin: 1rem 0 0rem 0.5rem;
 }
