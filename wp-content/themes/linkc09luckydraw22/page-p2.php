@@ -292,7 +292,10 @@ $(function() {
 
             window.location = "<?php echo get_site_url();?>/p3";
         } else {
-            alert('not check');
+            $('.error').css({
+                'opacity': '1'
+            });
+            // alert('not check');
         }
     })
 
