@@ -258,6 +258,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     border: 4px solid #008896 !important;
     font-size: 2.5rem;
     width: 700px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .form-control {
