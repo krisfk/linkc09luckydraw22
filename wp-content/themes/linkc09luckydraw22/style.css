@@ -175,14 +175,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #333;
+    background: #008896;
 }
 
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #666;
+    background: #008896;
 }
 
 
