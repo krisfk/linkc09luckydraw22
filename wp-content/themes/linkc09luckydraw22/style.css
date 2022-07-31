@@ -218,3 +218,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 1.3rem;
     color: #f68f33;
 }
+
+.form-check-input {
+    width: 1.5em;
+    height: 1.5rem;
+    border: 3px solid #008896;
+}
