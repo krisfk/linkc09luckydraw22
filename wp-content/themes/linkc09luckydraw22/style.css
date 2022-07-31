@@ -213,3 +213,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 ::-webkit-resizer {
     /* background: #111; */
 }
+
+.orange {
+    font-size: 1.2rem;
+    color: #f68f33;
+}
