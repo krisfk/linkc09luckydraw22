@@ -33,11 +33,11 @@ get_header(); ?>
         <div class="page3-form">
             <table>
                 <tr>
-                    <td>領展會員號碼：</td>
+                    <td class="text-end orange">領展會員號碼：</td>
                     <td><input type="text" class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>登記電話頭4位數字：</td>
+                    <td class="text-end orange">登記電話頭4位數字：</td>
                     <td><input type="text" class="form-control"></td>
                 </tr>
             </table>
