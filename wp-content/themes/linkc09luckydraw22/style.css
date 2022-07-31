@@ -236,5 +236,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .page3-form {
-    display: block;
+    display: inline-block;
+    margin: 446px 0 0 0;
 }
