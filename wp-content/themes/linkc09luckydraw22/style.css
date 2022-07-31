@@ -138,7 +138,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 512px;
     margin: 408px auto 0 auto;
     /* overflow: scroll; */
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .tnc-txt-div-outer {
@@ -153,9 +153,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .tnc-txt-div-inner {
-    height: 452px;
+    height: 413px;
     overflow-y: scroll;
-    margin: 2rem 1.5rem;
+    margin: 3rem 1.5rem;
     overflow-x: hidden;
     padding: 0px 3rem;
 }
@@ -215,14 +215,15 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .orange {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #f68f33;
 }
 
 .form-check-input {
-    width: 1.5em !important;
-    height: 1.5rem !important;
+    width: 1.7em !important;
+    height: 1.7rem !important;
     border: 3px solid #008896 !important;
+    margin: 0 0.3rem 0 0;
 }
 
 .form-check-input:checked {
