@@ -91,7 +91,7 @@ get_header(); ?>
             <br><br>
             推廣生意的競賽牌照號碼：____
             <br><br>
-            <h1>「勁抽消費二重賞」活動條款與細則
+            <h1 class="text-center">「勁抽消費二重賞」活動條款與細則
             </h1>
 
             <ol class="ps-3">
