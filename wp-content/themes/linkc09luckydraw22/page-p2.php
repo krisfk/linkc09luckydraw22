@@ -93,6 +93,7 @@ get_header(); ?>
             <br><br>
             <h1 class="text-center">「勁抽消費二重賞」活動條款與細則
             </h1>
+            <br>
 
             <ol class="ps-3">
                 <li>「勁抽消費二重賞」(「活動」)由領展資產管理有限公司(「主辦單位」)舉辦 ；</li>
