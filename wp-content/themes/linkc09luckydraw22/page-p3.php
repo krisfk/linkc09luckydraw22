@@ -69,6 +69,7 @@ $(function() {
 
         var member_id = $('#member-id').val();
         var tel_four_num = $('#tel-four-num').val();
+        var error = false;
         $('.error').css({
             'opacity': '0'
         });
@@ -76,12 +77,19 @@ $(function() {
             $('.error').eq(0).css({
                 'opacity': '1'
             });
+            error = true;
         }
 
         if (!(/^[0-9]{4}$/.test(tel_four_num))) {
             $('.error').eq(1).css({
                 'opacity': '1'
             });
+
+            error = true;
+        }
+
+        if (!error) {
+
         }
 
 
