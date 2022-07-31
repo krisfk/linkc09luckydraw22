@@ -262,8 +262,13 @@ get_header(); ?>
             </div>
         </div>
         <div>
-            <input type="checkbox" class="form-check-input">
-            我已閱讀條款及細則
+
+
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label orange" for="flexCheckChecked">
+                我已閱讀條款及細則
+            </label>
+
         </div>
     </div>
 </div>
