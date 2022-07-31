@@ -145,6 +145,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     /* display: inline-block; */
 }
 
-.price-table td {
+.price-table td,
+.price-table th {
     padding: 1rem;
 }
