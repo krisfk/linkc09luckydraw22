@@ -265,7 +265,7 @@ get_header(); ?>
 
 
             <input class="form-check-input agree-checkbox" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label orange" for="flexCheckChecked">
+            <label class="form-check-label orange" for="flexCheckChecked" style="font-size:1.5rem">
                 我已閱讀條款及細則
             </label>
 

@@ -215,7 +215,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .orange {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     color: #f68f33;
 }
 
