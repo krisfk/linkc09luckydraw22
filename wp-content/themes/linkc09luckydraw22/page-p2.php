@@ -262,7 +262,7 @@ get_header(); ?>
             </div>
         </div>
         <div>
-            <input type="checkbox" class="form-input">
+            <input type="checkbox" class="form-check-input">
             我已閱讀條款及細則
         </div>
     </div>
