@@ -150,3 +150,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .price-table th {
     padding: 0 1rem 0 0rem;
 }
+
+.tnc-txt-div-inner {
+    height: 200px;
+    overflow: scroll;
+}
