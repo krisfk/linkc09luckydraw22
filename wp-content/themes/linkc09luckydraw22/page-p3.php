@@ -33,9 +33,9 @@ get_header(); ?>
             <table>
                 <tr>
                     <td class="text-end orange">
-                        <label for="member_id">領展會員號碼：</label>
+                        <label for="member-id">領展會員號碼：</label>
                     </td>
-                    <td><input id="member_id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
+                    <td><input maxlength="8" id="member-id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
                         <div class="error">*請確定己輸入8位數會員號碼</div>
                     </td>
                 </tr>
@@ -43,14 +43,15 @@ get_header(); ?>
                     <td class="text-end orange">
                         <label for="tel-four-num">登記電話頭4位數字：</label>
                     </td>
-                    <td><input id="tel-four-num" type="text" class="form-control" placeholder="如1234-5678，請填1234">
+                    <td><input maxlength="4" id="tel-four-num" type="text" class="form-control"
+                            placeholder="如1234-5678，請填1234">
                         <div class="error">*請確定己輸入登記電話頭4位數宇</div>
                     </td>
                 </tr>
             </table>
             <div class="mt-4">
 
-                <a href="javascript:void(0);" class="agree-btn-a"><img
+                <a href="javascript:void(0);" class="next-btn-a"><img
                         src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_in_btn.png" alt=""></a>
             </div>
         </div>
@@ -63,6 +64,31 @@ get_header(); ?>
 
 <script type="text/javascript">
 $(function() {
+
+    $('.next-btn-a').click(function() {
+
+        var member_id = $('#member-id').val();
+        var tel_four_num = $('#tel-four-num').val();
+        $('.error').css({
+            'opacity': '0'
+        });
+        if (!(/^[0-9]{8}$/.test(phone))) {
+            $('.error').eq(0).css({
+                'opacity': '1'
+            });
+        }
+
+        if (!(/^[0-9]{4}$/.test(phone))) {
+            $('.error').eq(1).css({
+                'opacity': '1'
+            });
+        }
+
+
+
+    })
+
+
 
 
 })
