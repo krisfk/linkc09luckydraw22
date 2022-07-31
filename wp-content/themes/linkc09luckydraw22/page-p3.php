@@ -34,13 +34,13 @@ get_header(); ?>
             <table>
                 <tr>
                     <td class="text-end orange">領展會員號碼：</td>
-                    <td><input type="text" class="form-control">
+                    <td><input type="text" class="form-control" placeholder="請輸入8位數會員號碼">
                         <div class="error">*請確定己輸入8位數會員號碼</div>
                     </td>
                 </tr>
                 <tr>
                     <td class="text-end orange">登記電話頭4位數字：</td>
-                    <td><input type="text" class="form-control">
+                    <td><input type="text" class="form-control" placeholder="請輸入8位數會員號碼">
                         <div class="error">*請確定己輸入登記電話頭4位數宇</div>
                     </td>
                 </tr>
