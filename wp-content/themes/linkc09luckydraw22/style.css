@@ -252,10 +252,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .page3-form input {
     border: 4px solid #008896 !important;
+    font-size: 2.5rem;
 }
 
 .form-control {
-    line-height: 2.5 !important;
+    line-height: 1.7 !important;
     border-radius: 1rem !important;
     border-width: 2rem !important;
 }
