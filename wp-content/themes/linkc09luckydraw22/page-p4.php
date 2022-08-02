@@ -44,7 +44,7 @@ get_header(); ?>
 
             <table class="mx-auto mt-3">
                 <tr>
-                    <td><input class="form-control page45-form-input" id="staff-input" type="text"
+                    <td class="pe-3"><input class="form-control page45-form-input" id="staff-input" type="text"
                             placeholder="由工作人員輸入密碼">
                     </td>
                     <td><img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_get_btn.png" alt="">
