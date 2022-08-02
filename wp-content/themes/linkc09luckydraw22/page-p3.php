@@ -84,6 +84,11 @@ get_header(); ?>
 <script type="text/javascript">
 $(function() {
 
+    $('.pop-up-box-close-btn').click(function() {
+
+        $('.pop-up-box').fadeOut(200)
+    })
+
     $('.next-btn-a').click(function() {
 
         var member_id = $('#member-id').val();
@@ -109,7 +114,6 @@ $(function() {
         }
 
         if (!error) {
-
             $('.pop-up-box').fadeIn(200);
             $('.confirm-member-id').html(member_id);
             $('.confirm-tel-four-num').html(tel_four_num);
