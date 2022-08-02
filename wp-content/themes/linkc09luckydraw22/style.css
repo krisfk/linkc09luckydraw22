@@ -324,11 +324,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .place {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 0;
+    right: 0;
     font-size: 40px;
     background-color: #000;
     color: #fff;
+    padding: 1rem;
 }
 
 .main-container {
