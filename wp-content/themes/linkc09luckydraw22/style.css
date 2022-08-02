@@ -288,8 +288,15 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .pop-up-box {
     display: block;
-    width: 1000px;
-    height: 400px;
+    width: 1500px;
+    height: 770px;
     background: #fea642;
     color: #fff;
+    z-index: 100000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+    border: 11px solid #fff;
 }
