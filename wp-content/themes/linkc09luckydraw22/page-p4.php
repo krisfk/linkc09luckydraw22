@@ -40,12 +40,12 @@ get_header(); ?>
             <div class="text-center">
                 <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/icon-06.png" alt="">
             </div>
-            <div class="text-center orange" style="font-size:30px">Lowrarouge 水潤雙噴口負離子風筒CL-301（1部)</div>
+            <div class="text-center orange" style="font-size:45px">Lowrarouge 水潤雙噴口負離子風筒CL-301（1部)</div>
 
             <table>
                 <tr>
-                    <td><input class="form-control page45-form-input" maxlength="8" id="member-id" type="text"
-                            placeholder=" 請輸入8位數會員號碼">
+                    <td><input class="form-control page45-form-input" id="staff-input" type="text"
+                            placeholder="由工作人員輸入密碼">
                     </td>
                     <td><img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_get_btn.png" alt="">
                     </td>
