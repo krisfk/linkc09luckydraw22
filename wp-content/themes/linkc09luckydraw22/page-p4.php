@@ -37,7 +37,9 @@ get_header(); ?>
 
             <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_p5_img.png" alt="">
 
-
+            <div class="text-center">
+                <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/icon-06.png" alt="">
+            </div>
         </div>
     </div>
 
