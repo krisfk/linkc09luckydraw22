@@ -47,7 +47,11 @@ get_header(); ?>
                     <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="text"
                             placeholder="由工作人員輸入密碼">
                     </td>
-                    <td><img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_get_btn.png" alt="">
+
+                    <td>
+                        <a href="javascript:void(0);">
+                            <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_get_btn.png" alt="">
+                        </a>
                     </td>
                 </tr>
             </table>
