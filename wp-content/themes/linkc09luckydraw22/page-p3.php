@@ -39,6 +39,9 @@ get_header(); ?>
             請檢查是否正確，日後將會以此會員號碼登記之<br>電話號碼聯絡領獎事宜。
         </div>
 
+        <a href="javascript:void(0);" class="confirm-btn"><img
+                src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png" alt=""></a>
+
     </div>
 
     <a href="<?php echo get_site_url();?>/p2" class="img-back-btn-a"><img
@@ -83,6 +86,11 @@ get_header(); ?>
 
 <script type="text/javascript">
 $(function() {
+
+    $('.confirm-btn').click(function() {
+
+        window.location = "<?php echo get_site_url();?>/p4";
+    });
 
     $('.pop-up-box-close-btn').click(function() {
 
