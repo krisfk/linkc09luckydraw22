@@ -51,7 +51,7 @@ get_header(); ?>
                     </td>
                 </tr>
             </table>
-
+            <!--  -->
             <div class="text-center orange mt-4" style="font-size:40px">
                 會員號碼：12345678 <br>
                 你已自動晋級「終極大抽獎」！<br>
