@@ -25,7 +25,7 @@ get_header(); ?>
 
 <div class="main-container">
 
-    <div class="place">place</div>
+    <div class="place">HL</div>
 
     <img class="img-top-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_cover_img.png" alt="">
 
