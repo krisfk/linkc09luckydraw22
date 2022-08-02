@@ -327,6 +327,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 1rem;
     right: 1rem;
     font-size: 40px;
+    background-color: #000;
+    color: #fff;
 }
 
 .main-container {
