@@ -73,6 +73,7 @@ $(function() {
         $('.error').css({
             'opacity': '0'
         });
+
         if (!(/^[0-9]{8}$/.test(member_id))) {
             $('.error').eq(0).css({
                 'opacity': '1'
