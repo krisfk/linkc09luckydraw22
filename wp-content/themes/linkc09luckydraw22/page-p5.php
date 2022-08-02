@@ -53,9 +53,9 @@ get_header(); ?>
 
                     <td>
                         <a href="javascript:void(0);">
-                            <img style="height:90px"
-                                src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png"
-                                alt="">
+                            <img style="position: relative;
+    height: 90px;
+    top: -1px;" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png" alt="">
                         </a>
                     </td>
                 </tr>
