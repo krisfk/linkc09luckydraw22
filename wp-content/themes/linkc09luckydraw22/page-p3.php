@@ -110,7 +110,7 @@ $(function() {
 
         if (!error) {
 
-
+            $('.pop-up-box').fadeIn(200);
         }
 
 
