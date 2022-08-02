@@ -300,3 +300,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     border-radius: 2rem;
     border: 11px solid #fff;
 }
+
+.pop-up-box-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

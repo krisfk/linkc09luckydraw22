@@ -28,6 +28,8 @@ get_header(); ?>
 
     <div class="pop-up-box">
 
+        <a href="javascript:void(0);" class="pop-up-box-close-btn"><img
+                src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_close_btn.png" alt=""></a>
     </div>
 
     <a href="<?php echo get_site_url();?>/p2" class="img-back-btn-a"><img
