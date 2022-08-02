@@ -25,7 +25,7 @@ get_header(); ?>
 
 <div class="main-container">
 
-    <a href="<?php echo get_site_url();?>/p1" class="img-back-btn-a"><img
+    <a href="<?php echo get_site_url();?>" class="img-back-btn-a"><img
             src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_back_btn.png" alt=""></a>
 
 
