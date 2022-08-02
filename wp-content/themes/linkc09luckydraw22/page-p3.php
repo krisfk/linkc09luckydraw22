@@ -34,8 +34,8 @@ get_header(); ?>
 
         <div class="text-center"
             style="font-size: 50px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: max-content;">
-            你輸入的領展會員號碼為：12345678 <br><br>
-            你輸入的登記電話頭4位數字為：1234 <br><br>
+            你輸入的領展會員號碼為：<span class="confirm-member-id"></span> <br><br>
+            你輸入的登記電話頭4位數字為：<span class="confirm-tel-four-num"></span> <br><br>
             請檢查是否正確，日後將會以此會員號碼登記之<br>電話號碼聯絡領獎事宜。
         </div>
 
@@ -111,6 +111,8 @@ $(function() {
         if (!error) {
 
             $('.pop-up-box').fadeIn(200);
+            $('.confirm-member-id').html(member_id);
+            $('.confirm-tel-four-num').html(tel_four_num);
         }
 
 
