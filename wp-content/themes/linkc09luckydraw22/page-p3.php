@@ -75,7 +75,7 @@ get_header(); ?>
                     </td>
                 </tr>
             </table>
-            <div class="mt-5">
+            <div class="mt-3">
 
                 <a href="javascript:void(0);" class="next-btn-a"><img
                         src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_in_btn.png" alt=""></a>
