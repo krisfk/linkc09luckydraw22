@@ -242,8 +242,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .page4-content-outer {
-    display: block;
-    margin: 500px 0 0 0;
+    display: inline-block;
+    margin: 405px 0 0 0;
+    width: 100%;
 }
 
 .page3-form table td {
