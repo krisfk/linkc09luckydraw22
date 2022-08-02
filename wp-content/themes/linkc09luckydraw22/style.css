@@ -330,6 +330,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     background-color: #000;
     color: #fff;
     padding: 1rem;
+    width: 30px;
+    height: 30px;
 }
 
 .main-container {
