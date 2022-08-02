@@ -321,3 +321,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 1.5rem;
     right: 1.5rem;
 }
+
+.place {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
