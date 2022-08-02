@@ -37,7 +37,7 @@ get_header(); ?>
             你輸入的領展會員號碼為：<span class="confirm-member-id"></span> <br><br>
             你輸入的登記電話頭4位數字為：<span class="confirm-tel-four-num"></span> <br><br>
             請檢查是否正確，日後將會以此會員號碼登記之<br>電話號碼聯絡領獎事宜。
-            <div class="mt-3"> <a href="javascript:void(0);" class="confirm-btn"><img
+            <div class="mt-5"> <a href="javascript:void(0);" class="confirm-btn"><img
                         src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png" alt=""></a>
             </div>
 
