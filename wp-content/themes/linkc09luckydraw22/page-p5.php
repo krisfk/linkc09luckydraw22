@@ -37,7 +37,7 @@ get_header(); ?>
 
 
 
-            <div class="text-center orange mt-4" style="font-size:40px">
+            <div class="text-center orange mt-4" style="font-size: 70px;font-weight: bold;">
                 會員號碼：12345678 <br>
                 多謝參與， <br>
                 你已自動晉級「終極大抽獎」！
@@ -45,7 +45,7 @@ get_header(); ?>
 
 
 
-            <table class="mx-auto mt-3">
+            <table class="mx-auto mt-5">
                 <tr>
                     <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="text"
                             placeholder="由工作人員輸入密碼">
