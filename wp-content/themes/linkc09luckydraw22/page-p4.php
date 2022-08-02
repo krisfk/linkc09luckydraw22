@@ -42,7 +42,7 @@ get_header(); ?>
             </div>
             <div class="text-center orange" style="font-size:45px">Lowrarouge 水潤雙噴口負離子風筒CL-301（1部)</div>
 
-            <table>
+            <table class="mx-auto mt-3">
                 <tr>
                     <td><input class="form-control page45-form-input" id="staff-input" type="text"
                             placeholder="由工作人員輸入密碼">
