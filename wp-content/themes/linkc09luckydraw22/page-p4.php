@@ -51,6 +51,13 @@ get_header(); ?>
                     </td>
                 </tr>
             </table>
+
+            <div class="text-center orange" style="font-size:45px">
+                會員號碼：12345678 <br>
+                你已自動晋級「終極大抽獎」！<br>
+                得獎結果將於2022年10月25日於領展網站公佈，敬請留意
+
+            </div>
         </div>
     </div>
 
