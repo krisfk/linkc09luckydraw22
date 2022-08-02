@@ -30,6 +30,14 @@ get_header(); ?>
 
         <a href="javascript:void(0);" class="pop-up-box-close-btn"><img
                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_close_btn.png" alt=""></a>
+
+
+        <div class="text-center" style="font-size:22px;">你輸入的領展會員號碼為：12345678 <br><br>
+            你輸入的登記電話頭4位數字為：1234 <br><br>
+            請檢查是否正確，日後將會以此會員號碼登記之
+            電話號碼聯絡領獎事宜。
+        </div>
+
     </div>
 
     <a href="<?php echo get_site_url();?>/p2" class="img-back-btn-a"><img
