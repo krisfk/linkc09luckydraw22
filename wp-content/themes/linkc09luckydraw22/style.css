@@ -279,3 +279,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 ::placeholder {
     opacity: 0.4 !important;
 }
+
+.img-back-btn-a {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
