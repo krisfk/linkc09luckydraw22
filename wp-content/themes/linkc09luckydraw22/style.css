@@ -285,3 +285,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 2rem;
     left: 3rem;
 }
+
+.pop-up-box {
+    display: block;
+    width: 1000px;
+    height: 400px;
+    background: #fea642;
+    color: #fff;
+}
