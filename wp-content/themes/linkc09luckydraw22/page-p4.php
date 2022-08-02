@@ -26,54 +26,14 @@ get_header(); ?>
 <div class="main-container">
 
 
-    <div class="pop-up-box">
-
-        <a href="javascript:void(0);" class="pop-up-box-close-btn"><img
-                src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_close_btn.png" alt=""></a>
-
-
-        <div>
-            <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_p5_img.png" alt="">
-
-
-        </div>
-
-
-    </div>
-
     <a href="<?php echo get_site_url();?>/p2" class="img-back-btn-a"><img
             src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_back_btn.png" alt=""></a>
 
     <img class="img-top-img-2" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_top_img.png" alt="">
+    <div>
+        <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_p5_img.png" alt="">
 
-    <div class="text-center page3-form-outer">
 
-        <div class="page3-form">
-            <table>
-                <tr>
-                    <td class="text-end orange">
-                        <label for="member-id">領展會員號碼：</label>
-                    </td>
-                    <td><input maxlength="8" id="member-id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
-                        <div class="error">*請確定己輸入8位數會員號碼</div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-end orange">
-                        <label for="tel-four-num">登記電話頭4位數字：</label>
-                    </td>
-                    <td><input maxlength="4" id="tel-four-num" type="text" class="form-control"
-                            placeholder="如1234-5678，請填1234">
-                        <div class="error">*請確定己輸入登記電話頭4位數宇</div>
-                    </td>
-                </tr>
-            </table>
-            <div class="mt-3">
-
-                <a href="javascript:void(0);" class="next-btn-a"><img
-                        src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_in_btn.png" alt=""></a>
-            </div>
-        </div>
     </div>
 
 
