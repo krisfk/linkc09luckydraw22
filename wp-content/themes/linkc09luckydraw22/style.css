@@ -324,8 +324,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .place {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 1rem;
+    right: 1rem;
+    font-size: 40px;
 }
 
 .main-container {
