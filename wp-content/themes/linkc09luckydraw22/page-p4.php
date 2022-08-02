@@ -40,7 +40,7 @@ get_header(); ?>
             <div class="text-center">
                 <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/icon-06.png" alt="">
             </div>
-            <div class="text-center orange" style="font-size:45px">Lowrarouge 水潤雙噴口負離子風筒CL-301（1部)</div>
+            <div class="text-center orange" style="font-size:38px">Lowrarouge 水潤雙噴口負離子風筒CL-301（1部)</div>
 
             <table class="mx-auto mt-3">
                 <tr>
@@ -52,7 +52,7 @@ get_header(); ?>
                 </tr>
             </table>
 
-            <div class="text-center orange" style="font-size:45px">
+            <div class="text-center orange" style="font-size:40px">
                 會員號碼：12345678 <br>
                 你已自動晋級「終極大抽獎」！<br>
                 得獎結果將於2022年10月25日於領展網站公佈，敬請留意
