@@ -44,7 +44,7 @@ get_header(); ?>
 
             <table>
                 <tr>
-                    <td><input class="page45-form-input form-control" maxlength="8" id="member-id" type="text""
+                    <td><input class="page45-form-input form-control" maxlength="8" id="member-id" type="text"
                             placeholder=" 請輸入8位數會員號碼">
                     </td>
                     <td><img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_get_btn.png" alt="">
