@@ -39,7 +39,7 @@ $query_args = array(
 );
 
 $the_query = new WP_Query( $query_args );
-
+echo $_REQUEST['loc'];
 if ( $the_query->have_posts() ) {
     $prize_count_arr=array();
       
