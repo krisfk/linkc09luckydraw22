@@ -34,7 +34,34 @@ get_header(); ?>
 
         <div class="prize-record-div orange">
 
-            <table class="prize-record-table mt-3">
+            <?php
+$query_args = array(
+    'post_type' => 'member_reward_record',
+    'meta_query' => array(
+         array(
+            'key' => 'member_id',
+            'value' => $_REQUEST['member_id'],
+            'compare' => '=',
+         ),
+    ),
+);
+
+// The Query
+$the_query = new WP_Query( $query_args );
+
+// The Loop
+if ( $the_query->have_posts() ) {
+    while ( $the_query->have_posts() ) {
+        $the_query->the_post();
+        echo 1;
+        // echo json_encode(array("status"=>"1", "msg"=>"record found"));
+    }
+    wp_reset_postdata();
+} 
+
+?>
+
+            <!-- <table class="prize-record-table mt-3">
                 <tr>
                     <td>會員號碼：</td>
                     <td>9888 8888 <br>
@@ -66,7 +93,7 @@ get_header(); ?>
                         2022-8-29 16:40 YIT
                     </td>
                 </tr>
-            </table>
+            </table> -->
 
 
         </div>
