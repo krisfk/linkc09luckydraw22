@@ -25,11 +25,25 @@ get_header(); ?>
 
 <div class="main-container">
 
-    <?php echo $_REQUEST['loc'];?>
-    <!-- 
-    <a href="<?php echo get_site_url();?>/p2" class="img-back-btn-a"><img
-            src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_back_btn.png" alt=""></a> -->
+    <?php
+$query_args = array(
+	'post_type' => 'prize',
+);
 
+$the_query = new WP_Query( $query_args );
+
+if ( $the_query->have_posts() ) {
+	while ( $the_query->have_posts() ) {
+		$the_query->the_post();
+echo 1;
+    }
+
+	wp_reset_postdata();
+}
+
+
+
+?>
     <img class="img-top-img-2" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_top_img.png" alt="">
 
     <div class="text-center page4-content-outer">
@@ -57,7 +71,7 @@ get_header(); ?>
                     </td>
                 </tr>
             </table>
-            <!--  -->
+
             <div class="text-center orange mt-4" style="font-size:40px">
                 會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
                 你已自動晋級「終極大抽獎」！<br>
