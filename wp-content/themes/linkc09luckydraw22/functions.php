@@ -676,6 +676,25 @@ function add_member_reward_record($request)
 	$prize_post_id = $request['prize_post_id'];
 	$reward_datetime=date("Y-m-d H:i:s");
 	$reward_place = $request['loc'];
+
+
+	$post_id = wp_insert_post(array (
+        'post_type' => 'member_reward_record',
+        'post_title' => $member_id.'('.$member_tel.')',
+        'post_status' => 'publish',
+        'comment_status' => 'closed',   // if you prefer
+        'ping_status' => 'closed',      // if you prefer
+    ));
+	
+	add_post_meta($post_id, 'member_id', $member_id);
+    add_post_meta($post_id, 'member_tel', $member_tel);
+    add_post_meta($post_id, 'prize_post_id', $prize_post_id);
+    add_post_meta($post_id, 'reward_datetime', $reward_datetime);
+    add_post_meta($post_id, 'reward_place', $reward_place);
+
+	echo json_encode(array("status"=>"1", "msg"=>"record added"));
+
+	
 }
 
 
