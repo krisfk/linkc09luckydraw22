@@ -28,7 +28,7 @@ get_header(); ?>
     <div style="font-size: 30px;
     text-align: center;
     display: inline-block;
-    margin: 300px 0 0 0;
+    margin: 250px 0 0 0;
     width: 100%;">
         <div class="orange" style="">領展會員號碼</div>
 
