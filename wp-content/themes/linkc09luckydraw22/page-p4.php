@@ -48,16 +48,16 @@ if ( $the_query->have_posts() ) {
        array_push($prize_count_arr,get_field('stock_'.strtolower($_REQUEST['loc'])));        
 }
 
-array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['loc']),101));
+    array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['loc']),101));
 
-// get_field('no_stock_count_ot',101)
-//print_r($prize_count_arr);
-    // echo array_sum($prize_count_arr);
     $total_index = array_sum($prize_count_arr);
-    // echo $total_index;
-    $rand_reuslt = rand(1,$total_index);
-    echo $rand_reuslt;
+    $rand_result = rand(1,$total_index);
 
+    for($i=0;$i<sizeof($prize_count_arr);$i++)
+    {
+
+    }
+    // $price_idx = 
     
 	wp_reset_postdata();
 }
