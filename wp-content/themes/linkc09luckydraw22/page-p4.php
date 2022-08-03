@@ -32,8 +32,8 @@ get_header();
     <?php
 $query_args = array(
     'post_type' => 'prize',
-	// 'order' => 'ASC',
-	// 'orderby' => 'meta_value',
+	'order' => 'ASC',
+	'orderby' => 'date',
 	// 'meta_key' => 'prize_id',
     'posts_per_page'=>'-1'
 );
