@@ -21,7 +21,7 @@ get_header(); ?>
     <h1 class="page-title"><?php single_post_title(); ?></h1>
 </header><!-- .page-header -->
 <?php endif; ?>
-
+<?php echo $_POST['loc'];?>
 
 <div class="main-container">
 
@@ -87,6 +87,10 @@ get_header(); ?>
 
 
 </div>
+
+<form method="post" action="<?php echo get_site_url();?>/p4">
+    <input type="hidden" name="loc" value="<?php echo $_POST['loc'];?>">
+</form>
 
 <script type="text/javascript">
 $(function() {
