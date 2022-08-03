@@ -22,7 +22,7 @@ get_header(); ?>
 </header><!-- .page-header -->
 <?php endif; ?>
 
-<?php echo $_REQUEST['loc'];?>
+<?php //echo $_REQUEST['loc'];?>
 
 <div class="main-container">
 
