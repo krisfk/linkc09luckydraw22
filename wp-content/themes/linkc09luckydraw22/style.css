@@ -393,11 +393,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .prize-record-div {
-    height: 100px;
+    height: 300px;
     overflow-y: scroll;
     margin: 0rem 1rem;
     overflow-x: hidden;
     padding: 0px 0rem;
+    border: 1px solid;
 }
 
 .prize-record-div::-webkit-scrollbar {
