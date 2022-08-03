@@ -55,7 +55,8 @@ array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['lo
     
     $total_index = array_sum($prize_count_arr);
     // echo $total_index;
-    $reuslt = rand(1,3);
+    $rand_reuslt = rand(1,3);
+    echo $rand_reuslt;
 
     
 	wp_reset_postdata();
