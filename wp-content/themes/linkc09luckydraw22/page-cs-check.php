@@ -40,8 +40,8 @@ get_header(); ?>
     </div>
 
 
-    <div>
-        <a href="javascript:void(0);"><img
+    <div class="text-center">
+        <a href="javascript:void(0);"><img style="height:50px"
                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_mobile_check_btn.png" alt=""></a>
 
         <div class="mt-5" style="font-size:12px;color:#7d797b">推廣生意的競賽牌照號碼：xxxx</div>
