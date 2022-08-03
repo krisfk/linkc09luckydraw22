@@ -107,7 +107,8 @@ if ( $the_query->have_posts() ) {
                 <!--     $school_logo_url = wp_get_attachment_image_src(get_field('school_logo'),'full')[0];
  -->
 
-                <img src="<?php echo wp_get_attachment_image_src(get_field('icon'),'full')[0];?>" alt="">
+                <img src="<?php echo wp_get_attachment_image_src(get_field('icon',$bingo_prize_post_id),'full')[0];?>"
+                    alt="">
             </div>
             <div class="text-center orange" style="font-size:38px">
                 <?php //echo $bingo_prize_post_id;?>
