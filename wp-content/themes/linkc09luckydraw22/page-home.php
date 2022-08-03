@@ -35,7 +35,7 @@ get_header(); ?>
 </div>
 
 <form method="post" action="<?php echo get_site_url();?>/p2">
-    <input type="hidden" name="location" value="<?php echo $_GET['loc'];?>">
+    <input type="hidden" name="loc" value="<?php echo $_GET['loc'];?>">
 </form>
 
 <script type="text/javascript">
