@@ -30,26 +30,26 @@ get_header(); ?>
     <h1 class="mt-5">請在選擇地區：</h1>
     <ul class="mt-5 p-0 ms-0 d-inline-block">
         <li>
-            <a href="<?php echo get_site_url();?>?loc=YIT">Yiu Tung</a>
+            <a href="<?php echo get_site_url();?>?loc=YIT">Yiu Tung(tablet)</a>
 
         </li>
         <li>
-            <a href="<?php echo get_site_url();?>?loc=HT">Hing Tung</a>
+            <a href="<?php echo get_site_url();?>?loc=HT">Hing Tung(tablet)</a>
         </li>
         <li>
-            <a href="<?php echo get_site_url();?>?loc=OT">Oi Tung</a>
+            <a href="<?php echo get_site_url();?>?loc=OT">Oi Tung(tablet)</a>
         </li>
         <li>
-            <a href="<?php echo get_site_url();?>?loc=WT">Wan Tsui</a>
+            <a href="<?php echo get_site_url();?>?loc=WT">Wan Tsui(tablet)</a>
 
         </li>
         <li>
-            <a href="<?php echo get_site_url();?>?loc=YAT">Yat Tung</a>
+            <a href="<?php echo get_site_url();?>?loc=YAT">Yat Tung(tablet)</a>
         </li>
 
         <li>
 
-            <a style="background:#7e3a3a;" href="<?php echo get_site_url();?>/cs-check">CS CHECK</a>
+            <a style="background:#7e3a3a;" href="<?php echo get_site_url();?>/cs-check">CS CHECK(mobile phone)</a>
 
 
         </li>
