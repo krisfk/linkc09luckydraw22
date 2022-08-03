@@ -85,10 +85,10 @@ get_header(); ?>
 
 
 
-    <form method="post" action="<?php echo get_site_url();?>/p3">
+    <!-- <form method="post" action="<?php echo get_site_url();?>/p3">
         <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'];?>">
 
-    </form>
+    </form> -->
 
 
 
