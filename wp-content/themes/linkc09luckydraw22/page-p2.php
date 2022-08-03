@@ -288,6 +288,11 @@ get_header(); ?>
         alt="">
 </div>
 
+<form method="post" action="<?php echo get_site_url();?>/p3">
+    <input type="hidden" name="loc" value="<?php echo $_POST['loc'];?>">
+</form>
+
+
 <script type="text/javascript">
 $(function() {
 
@@ -295,7 +300,8 @@ $(function() {
 
         if ($('.agree-checkbox').is(':checked')) {
 
-            window.location = "<?php echo get_site_url();?>/p3";
+            $('form').submit();
+            // window.location = "<?php echo get_site_url();?>/p3";
         } else {
             $('.error').css({
                 'opacity': '1'
