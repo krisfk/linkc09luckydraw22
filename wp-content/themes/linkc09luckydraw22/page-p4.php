@@ -25,6 +25,7 @@ get_header(); ?>
 
 <div class="main-container">
 
+    <?php echo $_REQUEST['loc'];?>
     <!-- 
     <a href="<?php echo get_site_url();?>/p2" class="img-back-btn-a"><img
             src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_back_btn.png" alt=""></a> -->
