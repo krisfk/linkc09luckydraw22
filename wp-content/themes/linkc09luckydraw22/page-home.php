@@ -25,7 +25,7 @@ get_header(); ?>
 
 <div class="main-container">
 
-    <div class="place">HL</div>
+    <div class="place"><?php echo $_GET['loc'];?></div>
 
     <img class="img-top-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_cover_img.png" alt="">
 
