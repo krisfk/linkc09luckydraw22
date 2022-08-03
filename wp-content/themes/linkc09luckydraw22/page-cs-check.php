@@ -56,6 +56,7 @@ get_header(); ?>
 $(function() {
     $('.find-btn').click(function() {
 
+        alert(5);
         $.post("<?php echo get_site_url();?>/wp-json/api/find-member", {
                 member_id: $('#member-id').val(),
             })
