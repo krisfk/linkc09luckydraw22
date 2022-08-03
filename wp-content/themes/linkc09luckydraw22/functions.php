@@ -662,14 +662,15 @@ endif;
 
 
 add_action( 'rest_api_init', function () {
-    register_rest_route( 'api', '/member-entry', array(
-      'methods' => 'GET',
+    register_rest_route( 'api', '/member-raffle', array(
+      'methods' => 'POST',
       'callback' => 'member_entry',
     ) );
 
 });
 
-function member_entry($request)
+function member_raffle($request)
 {
-	echo 333;
+	
+	// 
 }

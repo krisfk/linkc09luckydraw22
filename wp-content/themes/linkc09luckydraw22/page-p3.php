@@ -93,7 +93,16 @@ $(function() {
 
     $('.confirm-btn').click(function() {
 
-        window.location = "<?php echo get_site_url();?>/p4";
+
+        $.post("<?php echo get_site_url();?>/wp-json/api/member-raffle", {
+                member_id: $('#member-id').val(),
+                member_tel: $('#tel-four-num').val()
+            })
+            .done(function(data) {
+                alert("Data Loaded: " + data);
+            });
+
+        // window.location = "<?php echo get_site_url();?>/p4";
     });
 
     $('.pop-up-box-close-btn').click(function() {
