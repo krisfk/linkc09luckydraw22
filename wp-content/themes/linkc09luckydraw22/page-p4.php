@@ -53,10 +53,12 @@ if ( $the_query->have_posts() ) {
     $total_index = array_sum($prize_count_arr);
     $rand_result = rand(1,$total_index);
 
+    $idx=0;
     for($i=0;$i<sizeof($prize_count_arr);$i++)
     {
-
+        $idx+=$prize_count_arr[$i];
     }
+    echo 'haha'.$idx;
     // $price_idx = 
     
 	wp_reset_postdata();
