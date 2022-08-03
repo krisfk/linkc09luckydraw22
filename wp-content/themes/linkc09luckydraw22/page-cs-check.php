@@ -25,6 +25,7 @@ get_header(); ?>
 
 <div class="mobile-main-container">
 
+    <div class="orange" style="font-size:40px;">領展會員號碼</div>
 
 
 </div>
