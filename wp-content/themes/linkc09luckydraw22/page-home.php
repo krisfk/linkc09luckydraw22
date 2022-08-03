@@ -37,6 +37,15 @@ get_header(); ?>
 <form method="post" action="<?php echo get_site_url();?>/p2">
     <input type="hidden" name="location" value="<?php $_GET['loc'];?>">
 </form>
+
+<script type="text/javascript">
+$(function() {
+
+    $('.draw-btn-a').click({
+        $('form').submit();
+    })
+})
+</script>
 <?php
 
 get_footer();
