@@ -39,3 +39,10 @@
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
+
+                    <?php
+                if(!$_REQUEST['loc'])
+                {
+                    wp_redirect(get_site_url().'/error');
+                }
+                ?>
