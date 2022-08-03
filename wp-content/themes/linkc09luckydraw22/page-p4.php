@@ -52,11 +52,11 @@ array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['lo
 
 // get_field('no_stock_count_ot',101)
 //print_r($prize_count_arr);
-    echo array_sum($prize_count_arr);
+    // echo array_sum($prize_count_arr);
     // $total_index = array_sum($prize_count_arr);
     // echo $total_index;
-    // $rand_reuslt = rand(1,$total_index);
-    // echo $rand_reuslt;
+    $rand_reuslt = rand(1,$total_index);
+    echo $rand_reuslt;
 
     
 	wp_reset_postdata();
