@@ -82,13 +82,22 @@ if ( $the_query->have_posts() ) {
     //   echo '$bingo_prize_idx'.$bingo_prize_idx.'<br>';
       $bingo_prize_post_id = $price_id_arr[$bingo_prize_idx-1];
     // echo $bingo_prize_post_id;
+
     //   echo $bingo_prize_post_id;
     // $price_idx = 
     
 	wp_reset_postdata();
+
+
+
 }
 
 
+
+if(!get_field('prize_name',$bingo_prize_post_id))
+{
+    echo 'nonjo';
+}
 
 ?>
 
