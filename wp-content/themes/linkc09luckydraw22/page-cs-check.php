@@ -28,7 +28,7 @@ get_header(); ?>
     <div style="font-size: 30px;
     text-align: center;
     display: inline-block;
-    margin: 200px 0 0 0;
+    margin: 300px 0 0 0;
     width: 100%;">
         <div class="orange" style="">領展會員號碼</div>
 
@@ -40,7 +40,9 @@ get_header(); ?>
     </div>
 
 
-    <div class="text-center">
+    <div class="text-center" style="position: absolute;
+    bottom: 2rem;
+    width: 100%;">
         <a href="javascript:void(0);"><img style="height:50px"
                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_mobile_check_btn.png" alt=""></a>
 
