@@ -701,7 +701,7 @@ function add_member_reward_record($request)
 	if($prize_post_id==-1)
 	{
 		
-		update_field('no_stock_count_'.strtolower($reward_place),101);
+		update_field('no_stock_count_'.strtolower($reward_place),get_field('no_stock_count_'.strtolower($reward_place),101)-1,101);
 		
 	}
 	else
