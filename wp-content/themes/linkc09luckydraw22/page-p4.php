@@ -52,13 +52,19 @@ if ( $the_query->have_posts() ) {
 
     $total_index = array_sum($prize_count_arr);
     $rand_result = rand(1,$total_index);
-
+    $bingo_prize_idx=-1;
     $idx=0;
+    
     for($i=0;$i<sizeof($prize_count_arr);$i++)
     {
         $idx+=$prize_count_arr[$i];
+
+        if($rand_result<=$idx)
+        {
+            $bingo_prize_idx=$i+1;
+        }
     }
-    echo 'haha'.$idx;
+    echo $bingo_prize_idx;
     // $price_idx = 
     
 	wp_reset_postdata();
