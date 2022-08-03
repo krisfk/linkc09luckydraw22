@@ -79,9 +79,9 @@ if ( $the_query->have_posts() ) {
             break;
         }
     }
-      echo '$bingo_prize_idx'.$bingo_prize_idx.'<br>';
+    //   echo '$bingo_prize_idx'.$bingo_prize_idx.'<br>';
       $bingo_prize_post_id = $price_id_arr[$bingo_prize_idx-1];
-    echo $bingo_prize_post_id;
+    // echo $bingo_prize_post_id;
     //   echo $bingo_prize_post_id;
     // $price_idx = 
     
@@ -106,7 +106,11 @@ if ( $the_query->have_posts() ) {
             <div class="text-center">
                 <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/icon-06.png" alt="">
             </div>
-            <div class="text-center orange" style="font-size:38px">Lowrarouge 水潤雙噴口負離子風筒CL-301（1部)</div>
+            <div class="text-center orange" style="font-size:38px">
+
+                <?php echo get_field('prize_name',$bingo_prize_post_id);?>
+                <!-- Lowrarouge 水潤雙噴口負離子風筒CL-301（1部) -->
+            </div>
 
             <table class="mx-auto mt-3">
                 <tr>
