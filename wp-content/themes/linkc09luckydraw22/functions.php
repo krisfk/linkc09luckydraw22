@@ -694,7 +694,10 @@ function add_member_reward_record($request)
 
 	$old_value= get_field('stock_'.strtolower($reward_place),$prize_post_id);
 	$new_value=$old_value-1;
-	update_field('stock_'.strtolower($reward_place),$new_value);
+	
+	// echo 'stock_'.strtolower($reward_place),$new_value;
+
+	update_field('stock_'.strtolower($reward_place),$new_value,$prize_post_id);
 
 	echo json_encode(array("status"=>"1", "msg"=>"record added"));
 
