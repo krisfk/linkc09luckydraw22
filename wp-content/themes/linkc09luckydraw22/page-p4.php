@@ -41,9 +41,10 @@ if ( $the_query->have_posts() ) {
 		$the_query->the_post();
 
         $prize_count_arr=array();
-        array_push($prize_count_arr,get_field('stock_'.$_REQUEST['loc']));
+        echo get_field('stock_'.$_REQUEST['loc']);
+        // array_push($prize_count_arr,get_field('stock_'.$_REQUEST['loc']));
         // echo get_field('prize_name').'<br>';
-        print_r($prize_count_arr);
+        // print_r($prize_count_arr);
         
 }
 
