@@ -23,7 +23,7 @@ get_header(); ?>
 <?php endif; ?>
 
 
-<div class="main-container text-center">
+<div class="main-container text-center d-inline-block">
 
 
 
