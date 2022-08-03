@@ -398,7 +398,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     margin: 0rem 1rem;
     overflow-x: hidden;
     padding: 0px 0rem;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .prize-record-div::-webkit-scrollbar {
