@@ -79,9 +79,9 @@ if ( $the_query->have_posts() ) {
             break;
         }
     }
-    //   echo '$bingo_prize_idx'.$bingo_prize_idx.'<br>';
+      echo '$bingo_prize_idx'.$bingo_prize_idx.'<br>';
       $bingo_prize_post_id = $price_id_arr[$bingo_prize_idx-1];
-    // echo $bingo_prize_post_id;
+    echo 'bingo_prize_post_id'.$bingo_prize_post_id;
 
     //   echo $bingo_prize_post_id;
     // $price_idx = 
