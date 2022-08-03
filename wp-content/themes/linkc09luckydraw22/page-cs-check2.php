@@ -57,7 +57,7 @@ if ( $the_query->have_posts() ) {
 
             <table class="prize-record-table mt-3">
                 <tr>
-                    <td>會員號碼：</td>
+                    <td style="width:100px">會員號碼：</td>
                     <td><?php echo $_REQUEST['member_id']?> <br>
                         <?php 
                         $price_post_id = get_field('prize_post_id');
