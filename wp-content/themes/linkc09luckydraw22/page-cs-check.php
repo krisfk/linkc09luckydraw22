@@ -23,7 +23,11 @@ get_header(); ?>
 <?php endif; ?>
 
 
-<div>dfsf</div>
+<div class="mobile-main-container">
+    fsd
+
+
+</div>
 
 
 <?php
