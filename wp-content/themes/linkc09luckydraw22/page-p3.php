@@ -85,11 +85,20 @@ get_header(); ?>
 
 
 
+    <form method="post" action="<?php echo get_site_url();?>/p3">
+        <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'];?>">
+
+    </form>
+
+
 
 </div>
 
 <form method="post" action="<?php echo get_site_url();?>/p4">
     <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'];?>">
+    <input type="hidden" name="member_id" value="">
+    <input type="hidden" name="member_tel" value="">
+
 </form>
 
 <script type="text/javascript">
@@ -98,13 +107,18 @@ $(function() {
     $('.confirm-btn').click(function() {
 
 
-        $.post("<?php echo get_site_url();?>/wp-json/api/member-raffle", {
-                member_id: $('#member-id').val(),
-                member_tel: $('#tel-four-num').val()
-            })
-            .done(function(data) {
-                alert("Data Loaded: " + data);
-            });
+        $('input[name="member_id"]').val($('#member-id').val());
+        $('input[name="member_tel"]').val($('#tel-four-num').val());
+
+        $('form').submit();
+
+        // $.post("<?php echo get_site_url();?>/wp-json/api/member-raffle", {
+        //         member_id: $('#member-id').val(),
+        //         member_tel: $('#tel-four-num').val()
+        //     })
+        //     .done(function(data) {
+        //         alert("Data Loaded: " + data);
+        //     });
 
         // window.location = "<?php echo get_site_url();?>/p4";
     });
