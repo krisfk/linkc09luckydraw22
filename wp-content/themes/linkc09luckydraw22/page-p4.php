@@ -55,6 +55,8 @@ if ( $the_query->have_posts() ) {
     echo $rand_result.'<br>';
     $bingo_prize_idx=-1;
     $idx=0;
+
+    print_r($prize_count_arr);
     
     for($i=0;$i<sizeof($prize_count_arr);$i++)
     {
