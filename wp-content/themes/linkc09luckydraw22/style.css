@@ -364,6 +364,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     padding: 1rem 2rem;
 }
 
+.error-container a:hover {
+    color: #fff;
+}
+
 .error-container ul li {
     display: block;
     list-style-type: none;
