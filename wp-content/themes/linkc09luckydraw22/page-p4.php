@@ -55,7 +55,7 @@ if ( $the_query->have_posts() ) {
     array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['loc']),101));
 
     // print_r($prize_count_arr);
-    print_r($price_id_arr);
+    // print_r($price_id_arr);
 
     // echo '<br>';
 
@@ -75,11 +75,12 @@ if ( $the_query->have_posts() ) {
 
         if($rand_result<=$idx)
         {
-            $bingo_prize_idx=$i+1;
+            $bingo_prize_idx=$i;
             break;
         }
     }
-    echo $bingo_prize_idx;
+      $bingo_prize_post_id = $price_id_arr[$bingo_prize_idx];
+      echo $bingo_prize_post_id;
     // $price_idx = 
     
 	wp_reset_postdata();
