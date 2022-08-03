@@ -674,7 +674,8 @@ function add_member_reward_record($request)
 	$member_id = $request['member_id'];
 	$member_tel = $request['member_tel'];
 	$prize_post_id = $request['prize_post_id'];
-	$reward_datetime=date("Y-m-d H:i:s");
+	date_default_timezone_set('Asia/Hong_Kong');
+	$reward_datetime=date("Y-m-d H:i");
 	$reward_place = $request['reward_place'];
 
 

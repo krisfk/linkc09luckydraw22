@@ -160,6 +160,12 @@ if(!get_field('prize_name',$bingo_prize_post_id))
 
 </div>
 
+<form method="post" action="<?php echo get_site_url();?>/p5">
+    <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'];?>">
+    <input type="hidden" name="member_id" value="">
+    <input type="hidden" name="member_tel" value="">
+</form>
+
 <script type="text/javascript">
 $(function() {
 
