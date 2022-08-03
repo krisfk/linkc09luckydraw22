@@ -669,9 +669,15 @@ add_action( 'rest_api_init', function () {
 
 });
 
-function member_raffle($request)
-{
+// function member_raffle($request)
+// {
 	
-// echo 1;	
-	// 
-}
+// // echo 1;	
+// 	// 
+// }
+
+
+function app_output_buffer() {
+	ob_start();
+} // soi_output_buffer
+add_action('init', 'app_output_buffer');
