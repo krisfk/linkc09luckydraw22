@@ -25,7 +25,7 @@ get_header(); ?>
 
 <div class="main-container">
 
-    <div class="place"><?php echo $_GET['loc'];?></div>
+    <div class="place"><?php echo $_REQUEST['loc'];?></div>
 
     <img class="img-top-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_cover_img.png" alt="">
 
@@ -35,7 +35,7 @@ get_header(); ?>
 </div>
 
 <form method="post" action="<?php echo get_site_url();?>/p2">
-    <input type="hidden" name="loc" value="<?php echo $_GET['loc'];?>">
+    <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'];?>">
 </form>
 
 <script type="text/javascript">
