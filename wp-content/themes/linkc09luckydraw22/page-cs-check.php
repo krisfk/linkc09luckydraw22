@@ -25,7 +25,17 @@ get_header(); ?>
 
 <div class="mobile-main-container">
 
-    <div class="orange" style="font-size:40px;">領展會員號碼</div>
+    <div style="font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 220px 0 0 0;
+    width: 100%;">
+        <div class="orange" style="">領展會員號碼</div>
+
+
+    </div>
+
+
 
 
 </div>
