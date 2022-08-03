@@ -14,7 +14,11 @@
  * @since Twenty Twenty-One 1.0
  */
 
-get_header(); ?>
+get_header();
+
+echo get_field('no_stock_count_yit',101);
+
+?>
 
 <?php if ( is_home() && ! is_front_page() && ! empty( single_post_title( '', false ) ) ) : ?>
 <header class="page-header alignwide">
@@ -49,9 +53,12 @@ if ( $the_query->have_posts() ) {
         // echo get_field('prize_name').'<br>';
         
 }
-print_r($prize_count_arr);
-     
 
+array_push($prize_count_arr,get_field('stock_'.strtolower($_REQUEST['loc'])));
+
+
+//print_r($prize_count_arr);
+    
 	wp_reset_postdata();
 }
 
