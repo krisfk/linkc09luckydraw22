@@ -682,11 +682,11 @@ function find_member($request)
 	$query_args = array(
 		'post_type' => 'member_reward_record',
 		'meta_query' => array(
-			// '0' => array(
+			 array(
 				'key' => 'member_id',
 				'value' => $member_id,
 				'compare' => '=',
-			// ),
+			 ),
 		),
 	);
 	
