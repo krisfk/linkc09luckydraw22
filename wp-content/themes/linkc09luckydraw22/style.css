@@ -377,6 +377,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     background-position: 0 0;
 }
 
+.mobile-main-container.mobile-main-container-2 {
+    background: #fff7d5;
+}
+
 .mobile-main-container {
     /* background:; */
 }
