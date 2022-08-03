@@ -43,6 +43,7 @@ get_header(); ?>
     <div class="text-center" style="position: absolute;
     bottom: 2rem;
     width: 100%;">
+        <!--  -->
         <a class="d-inline-block" href="javascript:void(0);" class="find-btn"><img style="height:50px"
                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_mobile_check_btn.png" alt=""></a>
 
