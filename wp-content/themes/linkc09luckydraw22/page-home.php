@@ -43,6 +43,7 @@ $(function() {
 
     $('.draw-btn-a').click(function() {
 
+        $('form').submit();
 
     })
 })
