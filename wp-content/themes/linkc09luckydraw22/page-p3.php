@@ -21,7 +21,7 @@ get_header(); ?>
     <h1 class="page-title"><?php single_post_title(); ?></h1>
 </header><!-- .page-header -->
 <?php endif; ?>
-<?php echo $_POST['loc'];?>
+<?php echo $_REQUEST['loc'];?>
 
 <div class="main-container">
 
@@ -48,7 +48,7 @@ get_header(); ?>
 
     </div>
 
-    <a href="<?php echo get_site_url();?>?loc=<?php echo $_POST['loc'];?>" class="img-back-btn-a"><img
+    <a href="<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>" class="img-back-btn-a"><img
             src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_back_btn.png" alt=""></a>
 
     <img class="img-top-img-2" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_top_img.png" alt="">
@@ -89,7 +89,7 @@ get_header(); ?>
 </div>
 
 <form method="post" action="<?php echo get_site_url();?>/p4">
-    <input type="hidden" name="loc" value="<?php echo $_POST['loc'];?>">
+    <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'];?>">
 </form>
 
 <script type="text/javascript">

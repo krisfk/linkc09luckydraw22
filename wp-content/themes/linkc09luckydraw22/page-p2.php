@@ -22,11 +22,11 @@ get_header(); ?>
 </header><!-- .page-header -->
 <?php endif; ?>
 
-<?php echo $_POST['loc'];?>
+<?php echo $_REQUEST['loc'];?>
 
 <div class="main-container">
 
-    <a href="<?php echo get_site_url();?>?loc=<?php echo $_POST['loc'];?>" class="img-back-btn-a"><img
+    <a href="<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>" class="img-back-btn-a"><img
             src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_back_btn.png" alt=""></a>
 
 
@@ -289,7 +289,7 @@ get_header(); ?>
 </div>
 
 <form method="post" action="<?php echo get_site_url();?>/p3">
-    <input type="hidden" name="loc" value="<?php echo $_POST['loc'];?>">
+    <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'];?>">
 </form>
 
 
