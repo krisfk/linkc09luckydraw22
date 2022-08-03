@@ -357,3 +357,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     list-style-type: none;
     margin: 0 0 3rem 0;
 }
+
+.mobile-main-container {
+    height: 100vh;
+    min-width: 640px;
+}

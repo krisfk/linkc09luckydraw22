@@ -24,7 +24,7 @@ get_header(); ?>
 
 
 <div class="mobile-main-container">
-    fsd
+
 
 
 </div>
