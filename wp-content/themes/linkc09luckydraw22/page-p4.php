@@ -53,17 +53,17 @@ if ( $the_query->have_posts() ) {
 
     array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['loc']),101));
 
-    print_r($prize_count_arr);
+    // print_r($prize_count_arr);
 
 
-    echo '<br>';
+    // echo '<br>';
 
     $total_index = array_sum($prize_count_arr);
     $rand_result = rand(1,$total_index);
-    echo $total_index.'<br>';
+    // echo $total_index.'<br>';
    
 
-    echo $rand_result.'<br>';
+    // echo $rand_result.'<br>';
     $bingo_prize_idx=-1;
     $idx=0;
 
