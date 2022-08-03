@@ -49,7 +49,7 @@ get_header(); ?>
 
         <li>
 
-            <a style="background:#f00;" href="<?php echo get_site_url();?>/cs-check">CS CHECK</a>
+            <a style="background:#7e3a3a;" href="<?php echo get_site_url();?>/cs-check">CS CHECK</a>
 
 
         </li>
