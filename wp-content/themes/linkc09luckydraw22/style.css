@@ -345,7 +345,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     text-decoration: none;
     color: #000;
     font-size: 40px;
-    text-decoration: underline;
+    text-decoration: none;
+    background: #009fb2;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 .error-container ul li {
