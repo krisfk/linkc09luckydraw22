@@ -34,9 +34,18 @@ get_header(); ?>
 
         <input maxlength="8" id="member-id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
         <div class="error">*請確定己輸入8位數會員號碼</div>
+
+
+
     </div>
 
 
+    <div>
+        <a href="javascript:void(0);"><img
+                src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_mobile_check_btn.png" alt=""></a>
+
+        <div class="mt-5" style="font-size:12px;color:#7d797b">推廣生意的競賽牌照號碼：xxxx</div>
+    </div>
 
 
 </div>
