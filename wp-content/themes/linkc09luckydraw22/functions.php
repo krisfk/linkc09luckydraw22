@@ -693,12 +693,22 @@ function add_member_reward_record($request)
     add_post_meta($post_id, 'reward_datetime', $reward_datetime);
     add_post_meta($post_id, 'reward_place', $reward_place);
 
-	$old_value= get_field('stock_'.strtolower($reward_place),$prize_post_id);
-	$new_value=$old_value-1;
+	// $old_value= get_field('stock_'.strtolower($reward_place),$prize_post_id);
+	// $new_value=$old_value-1;
 	
 	// echo 'stock_'.strtolower($reward_place),$new_value;
 
-	update_field('stock_'.strtolower($reward_place),$new_value,$prize_post_id);
+	if($prize_post_id==-1)
+	{
+		
+		update_field('no_stock_count_'.strtolower($reward_place),101);
+		
+	}
+	else
+	{
+		update_field('stock_'.strtolower($reward_place),get_field('stock_'.strtolower($reward_place),$prize_post_id)-1,$prize_post_id);
+	}
+
 
 	echo json_encode(array("status"=>"1", "msg"=>"record added"));
 
