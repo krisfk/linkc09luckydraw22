@@ -96,7 +96,8 @@ if ( $the_query->have_posts() ) {
 
 if(!get_field('prize_name',$bingo_prize_post_id))
 {
-    echo 'nonjo';
+    wp_redirect(get_site_url().'/p5?loc='.$_REQUEST['loc']);   
+    // echo 'nonjo';
 }
 
 ?>
