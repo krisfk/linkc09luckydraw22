@@ -126,7 +126,7 @@ if(!get_field('prize_name',$bingo_prize_post_id))
 
             <table class="mx-auto mt-3 position-relative">
                 <tr>
-                    <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="text"
+                    <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="password"
                             placeholder="由工作人員輸入密碼">
                         <div class="error" style="    position: absolute;
     top: 10px;
