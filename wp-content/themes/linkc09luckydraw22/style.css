@@ -340,3 +340,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .main-container {
     position: relative;
 }
+
+.error-container a {
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+}
