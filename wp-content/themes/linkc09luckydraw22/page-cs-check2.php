@@ -53,14 +53,30 @@ $the_query = new WP_Query( $query_args );
 if ( $the_query->have_posts() ) {
     while ( $the_query->have_posts() ) {
         $the_query->the_post();
-        echo 1;
-        // echo json_encode(array("status"=>"1", "msg"=>"record found"));
+        ?>
+
+            <table class="prize-record-table mt-3">
+                <tr>
+                    <td>會員號碼：</td>
+                    <td><?php echo $_REQUEST['member_id']?> <br>
+                        <?php 
+                        $price_post_id = get_field('prize_post_id');
+
+                        echo get_field('prize_name',$price_post_id);
+                        
+                        ?>
+
+                        <br><br>
+
+                        <?php echo get_field('reward_datetime')?> <?php echo get_field('reward_place');?>
+
+                    </td>
+                </tr>
+            </table>
+            <?php
     }
     wp_reset_postdata();
 } 
-// echo 999;
-
-echo $_REQUEST['member_id'];
 ?>
 
             <!-- <table class="prize-record-table mt-3">
