@@ -34,7 +34,7 @@ get_header(); ?>
 
         <div class="prize-record-div orange">
 
-            <table class="prize-record-table">
+            <table class="prize-record-table mt-3">
                 <tr>
                     <td>會員號碼：</td>
                     <td>9888 8888 <br>
