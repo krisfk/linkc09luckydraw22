@@ -38,24 +38,32 @@ get_header(); ?>
 
 
             <div class="text-center orange mt-5" style="font-size: 70px;font-weight: bold;">
-                會員號碼：12345678 <br>
+                會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
                 多謝參與， <br>
                 你已自動晉級「終極大抽獎」！
             </div>
 
 
 
-            <table class="mx-auto mt-5">
+            <table class="mx-auto mt-3 position-relative">
                 <tr>
-                    <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="text"
+                    <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="password"
                             placeholder="由工作人員輸入密碼">
+                        <div class="error" style="    position: absolute;
+    top: 10px;
+    right: -170px;
+    z-index: 100;">密碼不正確</div>
                     </td>
 
                     <td>
-                        <a href="javascript:void(0);">
-                            <img style="position: relative;
-    height: 90px;
-    top: -1px;" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png" alt="">
+                        <a href="javascript:void(0);" class="confirm-take">
+
+                            <?php
+                        
+                        ?>
+                            <img style="position:relative; top: -1px;"
+                                src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png"
+                                alt="">
                         </a>
                     </td>
                 </tr>
@@ -71,47 +79,49 @@ get_header(); ?>
 <script type="text/javascript">
 $(function() {
 
-    $('.confirm-btn').click(function() {
+    $('.confirm-take').click(function() {
 
-        window.location = "<?php echo get_site_url();?>/p4";
-    });
-
-    $('.pop-up-box-close-btn').click(function() {
-
-        $('.pop-up-box').fadeOut(200)
-    })
-
-    $('.next-btn-a').click(function() {
-
-        var member_id = $('#member-id').val();
-        var tel_four_num = $('#tel-four-num').val();
-        var error = false;
         $('.error').css({
             'opacity': '0'
         });
 
-        if (!(/^[0-9]{8}$/.test(member_id))) {
-            $('.error').eq(0).css({
+        var staff_input = $('#staff-input').val();
+
+        if (staff_input == 'link1234') {
+
+
+
+
+            $('table').html('<span class="orange" style="font-size:50px;">多謝參與！</span>');
+
+
+
+            $.post("<?php echo get_site_url();?>/wp-json/api/add-member-reward-record", {
+                    member_id: '<?php echo $_REQUEST['member_id']; ?>',
+                    member_tel: '<?php echo $_REQUEST['member_tel']; ?>',
+                    prize_post_id: <?php echo '-1';?>,
+                    reward_place: '<?php echo $_REQUEST['loc'];?>'
+                })
+                .done(function(data) {
+
+
+                    setTimeout(() => {
+                        window.location =
+                            "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
+                    }, 3000);
+
+
+                });
+
+
+
+
+
+        } else {
+            $('.error').css({
                 'opacity': '1'
             });
-            error = true;
         }
-
-        if (!(/^[0-9]{4}$/.test(tel_four_num))) {
-            $('.error').eq(1).css({
-                'opacity': '1'
-            });
-
-            error = true;
-        }
-
-        if (!error) {
-            $('.pop-up-box').fadeIn(200);
-            $('.confirm-member-id').html(member_id);
-            $('.confirm-tel-four-num').html(tel_four_num);
-        }
-
-
 
     })
 
