@@ -174,7 +174,28 @@ $(function() {
         if (staff_input == 'link1234') {
 
 
+
+
             $('table').html('<span class="orange" style="font-size:50px;">成功領取獎品！</span>');
+
+
+
+            //         $member_id = $request['member_id'];
+            // $member_tel = $request['member_tel'];
+            // $prize_post_id = $request['prize_post_id'];
+            // $reward_datetime=date("Y-m-d H:i:s");
+            // $reward_place = $request['loc'];
+            $.post("<?php echo get_site_url();?>/wp-json/api/add-member-reward-record", {
+                    member_id: $('#member-id').val(),
+                    member_tel: $('#tel-four-num').val(),
+                    prize_post_id: bingo_prize_post_id,
+                    reward_place: '<?php echo $_REQUEST['loc'];?>'
+                })
+                .done(function(data) {
+                    alert("Data Loaded: " + data);
+                });
+
+
 
             setTimeout(() => {
                 window.location =

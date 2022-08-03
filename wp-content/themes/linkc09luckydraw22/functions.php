@@ -662,19 +662,21 @@ endif;
 
 
 add_action( 'rest_api_init', function () {
-    register_rest_route( 'api', '/member-raffle', array(
+    register_rest_route( 'api', '/add-member-reward-record', array(
       'methods' => 'POST',
-      'callback' => 'member_raffle',
+      'callback' => 'add_member_reward_record',
     ) );
 
 });
 
-// function member_raffle($request)
-// {
-	
-// // echo 1;	
-// 	// 
-// }
+function add_member_reward_record($request)
+{
+	$member_id = $request['member_id'];
+	$member_tel = $request['member_tel'];
+	$prize_post_id = $request['prize_post_id'];
+	$reward_datetime=date("Y-m-d H:i:s");
+	$reward_place = $request['loc'];
+}
 
 
 function app_output_buffer() {
