@@ -23,12 +23,12 @@ get_header(); ?>
 <?php endif; ?>
 
 
-<div class="main-container text-center d-inline-block">
+<div class="main-container text-center d-inline-block error-container">
 
 
 
     <h1 class="mt-5">請在選擇地區：</h1>
-    <ul class="mt-5">
+    <ul class="mt-5 p-0 ms-0">
         <li>
             <a href="<?php echo get_site_url();?>?loc=YIT">Yiu Tung</a>
 
