@@ -46,6 +46,13 @@ get_header(); ?>
         <li>
             <a href="<?php echo get_site_url();?>?loc=YAT">Yat Tung</a>
         </li>
+
+        <li>
+
+            <a style="background:#f00;" href="<?php echo get_site_url();?>/cs-check">CS CHECK</a>
+
+
+        </li>
     </ul>
 
 
