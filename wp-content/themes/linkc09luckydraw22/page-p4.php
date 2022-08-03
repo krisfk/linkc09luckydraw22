@@ -59,7 +59,6 @@ get_header(); ?>
             <!--  -->
             <div class="text-center orange mt-4" style="font-size:40px">
                 會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
-                <?php echo  $_REQUEST['member_tel']; ?>
                 你已自動晋級「終極大抽獎」！<br>
                 得獎結果將於2022年10月25日於領展網站公佈，敬請留意
 
