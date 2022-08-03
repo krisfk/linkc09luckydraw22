@@ -392,7 +392,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .prize-record-div {
-    height: 413px;
+    height: 45vh;
     overflow-y: scroll;
     margin: 0rem 1rem;
     overflow-x: hidden;
@@ -414,14 +414,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 /* Handle */
 
 .prize-record-div::-webkit-scrollbar-thumb {
-    background: #008896;
+    background: #f68e31;
 }
 
 
 /* Handle on hover */
 
-.tnc-txt-div-inner::-webkit-scrollbar-thumb:hover {
-    background: #008896;
+.prize-record-div::-webkit-scrollbar-thumb:hover {
+    background: #f68e31;
 }
 
 
