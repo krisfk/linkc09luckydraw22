@@ -35,8 +35,10 @@ $the_query = new WP_Query( $query_args );
 if ( $the_query->have_posts() ) {
 	while ( $the_query->have_posts() ) {
 		$the_query->the_post();
-echo 1;
-    }
+
+        echo get_field('prize_name').'<br>';
+        
+}
 
 	wp_reset_postdata();
 }
