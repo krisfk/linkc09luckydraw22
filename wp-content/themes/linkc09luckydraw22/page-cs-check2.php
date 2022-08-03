@@ -45,6 +45,28 @@ get_header(); ?>
                     </td>
                 </tr>
             </table>
+            <table class="prize-record-table">
+                <tr>
+                    <td>會員號碼：</td>
+                    <td>9888 8888 <br>
+                        Lowra rouge 水潤雙噴口負離子<br>
+                        風筒CL-301（1部)<br><br>
+
+                        2022-8-29 16:40 YIT
+                    </td>
+                </tr>
+            </table>
+            <table class="prize-record-table">
+                <tr>
+                    <td>會員號碼：</td>
+                    <td>9888 8888 <br>
+                        Lowra rouge 水潤雙噴口負離子<br>
+                        風筒CL-301（1部)<br><br>
+
+                        2022-8-29 16:40 YIT
+                    </td>
+                </tr>
+            </table>
 
 
         </div>
