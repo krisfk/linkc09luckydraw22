@@ -62,7 +62,12 @@ $(function() {
                 member_id: $('#member-id').val(),
             })
             .done(function(data) {
-                alert(data.status);
+                if (data.status == -1) {
+                    $('.error').css({
+                        'opacity': '1'
+                    });
+                }
+                // alert(data.status);
                 // alert("Data Loaded: " + data);
             });
 
