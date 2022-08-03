@@ -43,7 +43,7 @@ get_header(); ?>
     <div class="text-center" style="position: absolute;
     bottom: 2rem;
     width: 100%;">
-        <a class="d-inline-block" href="javascript:void(0);"><img style="height:50px"
+        <a class="d-inline-block" href="javascript:void(0);" class="find-btn"><img style="height:50px"
                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_mobile_check_btn.png" alt=""></a>
 
         <div class="mt-5" style="font-size:12px;color:#7d797b">推廣生意的競賽牌照號碼：xxxx</div>
@@ -52,6 +52,23 @@ get_header(); ?>
 
 </div>
 
+<script type="text/javascript">
+$(function() {
+    $('.find-btn').click(function() {
+
+        $.post("<?php echo get_site_url();?>/wp-json/api/find-member", {
+                member_id: $('#member-id').val(),
+            })
+            .done(function(data) {
+                alert(data.status);
+                // alert("Data Loaded: " + data);
+            });
+
+
+    })
+
+})
+</script>
 
 <?php
 

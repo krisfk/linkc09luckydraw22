@@ -663,11 +663,49 @@ endif;
 
 add_action( 'rest_api_init', function () {
     register_rest_route( 'api', '/add-member-reward-record', array(
-      'methods' => 'POST',
-      'callback' => 'add_member_reward_record',
-    ) );
+		'methods' => 'POST',
+		'callback' => 'add_member_reward_record',
+	  ) );
+	  register_rest_route( 'api', '/find-member', array(
+		'methods' => 'POST',
+		'callback' => 'find_member',
+	  ) );
+	
+
 
 });
+
+function find_member($request)
+{
+	$member_id = $request['member_id'];
+
+	$query_args = array(
+		'post_type' => 'member_reward_record',
+		'meta_query' => array(
+			// '0' => array(
+				'key' => 'member_id',
+				'value' => $member_id,
+				'compare' => '=',
+			// ),
+		),
+	);
+	
+	// The Query
+	$the_query = new WP_Query( $query_args );
+	
+	// The Loop
+	if ( $the_query->have_posts() ) {
+		// while ( $the_query->have_posts() ) {
+			$the_query->the_post();
+			echo json_encode(array("status"=>"1", "msg"=>"record found"));
+		// }
+		wp_reset_postdata();
+	} else {
+			echo json_encode(array("status"=>"-1", "msg"=>"No record found"));
+		// no posts found
+	}
+	
+}
 
 function add_member_reward_record($request)
 {
