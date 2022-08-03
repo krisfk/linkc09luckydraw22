@@ -68,6 +68,9 @@ $(function() {
                     $('.error').css({
                         'opacity': '1'
                     });
+                } else {
+
+                    $('form').submit();
                 }
                 // alert(data.status);
                 // alert("Data Loaded: " + data);
