@@ -36,7 +36,7 @@ get_header(); ?>
         <div class="tnc-txt-div text-start">
 
             <div class="tnc-txt-div-inner">
-                <?php echo $_POST['loc'];?>
+                <?php echo $_POST['loc']; echo 111;?>
                 <h1 class="text-center">「勁抽消費二重賞」抽獎活動條款與細則</h1><br>
 
                 由2022年8月25日至2022年10月9日(「推廣期」)，顧客登記成為領展會員，並在5個指定商場於推廣期間任何連續三日內以電子貨幣*累積淨消費每滿$200元或以上，並出示該商場內不同商戶發出之正本機印發票最多3張，即可獲得「即抽即中獎」及「終極大抽獎」(統稱「活動」)
