@@ -41,8 +41,8 @@
                 <main id="main" class="site-main">
 
                     <?php
-                if(!$_REQUEST['loc'])
+                if(!$_REQUEST['loc'] && $_REQUEST['loc']!='-1')
                 {
-                    wp_redirect(get_site_url().'/error');
+                    wp_redirect(get_site_url().'/error?loc=-1');
                 }
                 ?>
