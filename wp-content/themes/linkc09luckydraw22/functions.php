@@ -671,6 +671,6 @@ add_action( 'rest_api_init', function () {
 
 function member_raffle($request)
 {
-	
+echo 1;	
 	// 
 }
