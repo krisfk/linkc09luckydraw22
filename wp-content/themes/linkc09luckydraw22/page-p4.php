@@ -194,14 +194,11 @@ $(function() {
                             "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
                     }, 3000);
 
-                    // alert("Data Loaded: " + data);
+
                 });
 
 
 
-            // alert('成功領取獎品');
-
-            // let isBoss = confirm("Are you the boss?");
 
 
         } else {

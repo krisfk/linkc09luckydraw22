@@ -692,7 +692,13 @@ function add_member_reward_record($request)
     add_post_meta($post_id, 'reward_datetime', $reward_datetime);
     add_post_meta($post_id, 'reward_place', $reward_place);
 
+	$old_value= get_field('stock_'.strtolower($reward_place),$prize_post_id);
+	$new_value=$old_value-1;
+	update_field('stock_'.strtolower($reward_place),$new_value);
+
 	echo json_encode(array("status"=>"1", "msg"=>"record added"));
+
+
 
 	
 }
