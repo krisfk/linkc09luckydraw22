@@ -40,7 +40,9 @@
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
 
-                    <?php $post_slug = get_post_field( 'post_name', get_post() ); ?>
+                    <?php $post_slug = get_post_field( 'post_name', get_post() );
+                    
+                    echo $post_slug;?>
 
 
                     <?php
@@ -49,6 +51,6 @@
 
                     if(!$_REQUEST['loc'] && $_REQUEST['loc']!='-1' && ($post_slug !='cs-check' || $post_slug !='cs-check2') )
                     {
-                    wp_redirect(get_site_url().'/error?loc=-1');
+                    // wp_redirect(get_site_url().'/error?loc=-1');
                     }
                     ?>
