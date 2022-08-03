@@ -358,18 +358,18 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 20px;
     text-decoration: none;
     background: #009fb2;
-    width: 200px !important;
     color: #fff;
     border-radius: 1rem;
-    display: block;
     padding: 1rem 2rem;
+    display: block;
+    width: 100%;
 }
 
 .error-container ul li {
     display: block;
     list-style-type: none;
     margin: 0 0 1rem 0;
-    width: 200px;
+    width: 100%;
 }
 
 .mobile-main-container {
