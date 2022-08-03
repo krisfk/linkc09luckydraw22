@@ -63,6 +63,7 @@ if ( $the_query->have_posts() ) {
         if($rand_result<=$idx)
         {
             $bingo_prize_idx=$i+1;
+            break;
         }
     }
     echo $bingo_prize_idx;
