@@ -40,12 +40,14 @@ $query_args = array(
 
 $the_query = new WP_Query( $query_args );
 // echo $_REQUEST['loc'];
-echo get_field('prize_id').'<br>';
 if ( $the_query->have_posts() ) {
     $prize_count_arr=array();
       
     while ( $the_query->have_posts() ) {
 		$the_query->the_post();
+        echo get_field('prize_id').'<br>';
+
+        
        array_push($prize_count_arr,get_field('stock_'.strtolower($_REQUEST['loc'])));        
 }
 
