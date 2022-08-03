@@ -45,7 +45,7 @@ if ( $the_query->have_posts() ) {
       
     while ( $the_query->have_posts() ) {
 		$the_query->the_post();
-        echo get_field('prize_id').'<br>';
+        // echo get_field('prize_id').'<br>';
 
         
        array_push($prize_count_arr,get_field('stock_'.strtolower($_REQUEST['loc'])));        
