@@ -54,7 +54,7 @@
                     wp_redirect(get_site_url().'/error?loc=-1');
                     }
 
-                    if($_REQUEST['loc'] !='YIT' &&$_REQUEST['loc'] !='HT'&&$_REQUEST['loc'] !='OT'&&$_REQUEST['loc'] !='WT' &&$_REQUEST['loc'] !='YAT')
+                    if($_REQUEST['loc'] !='YIT' && $_REQUEST['loc'] !='HT'&&$_REQUEST['loc'] !='OT'&&$_REQUEST['loc'] !='WT' &&$_REQUEST['loc'] !='YAT'&& $_REQUEST['loc']!='-1')
                     {
                         wp_redirect(get_site_url().'/error?loc=-1');
    
