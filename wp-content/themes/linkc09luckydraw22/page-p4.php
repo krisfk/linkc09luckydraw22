@@ -64,7 +64,7 @@ if ( $the_query->have_posts() ) {
     // echo $total_index.'<br>';
    
 
-    echo 'result'.$rand_result.'<br>';
+    // echo 'result'.$rand_result.'<br>';
     $bingo_prize_idx=-1;
     $idx=0;
 
@@ -79,9 +79,9 @@ if ( $the_query->have_posts() ) {
             break;
         }
     }
-      echo '$bingo_prize_idx'.$bingo_prize_idx.'<br>';
+    //   echo '$bingo_prize_idx'.$bingo_prize_idx.'<br>';
       $bingo_prize_post_id = $price_id_arr[$bingo_prize_idx-1];
-    echo 'bingo_prize_post_id'.$bingo_prize_post_id;
+    // echo 'bingo_prize_post_id'.$bingo_prize_post_id;
 
     
 	wp_reset_postdata();
