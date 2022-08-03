@@ -188,7 +188,7 @@ $(function() {
             $.post("<?php echo get_site_url();?>/wp-json/api/add-member-reward-record", {
                     member_id: $('#member-id').val(),
                     member_tel: $('#tel-four-num').val(),
-                    prize_post_id: bingo_prize_post_id,
+                    prize_post_id: <?php echo $bingo_prize_post_id;?>,
                     reward_place: '<?php echo $_REQUEST['loc'];?>'
                 })
                 .done(function(data) {
