@@ -28,11 +28,12 @@ get_header(); ?>
     <div style="font-size: 30px;
     text-align: center;
     display: inline-block;
-    margin: 220px 0 0 0;
+    margin: 200px 0 0 0;
     width: 100%;">
         <div class="orange" style="">領展會員號碼</div>
 
-
+        <input maxlength="8" id="member-id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
+        <div class="error">*請確定己輸入8位數會員號碼</div>
     </div>
 
 
