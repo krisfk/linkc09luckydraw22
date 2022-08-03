@@ -27,7 +27,11 @@ get_header(); ?>
 
     <?php
 $query_args = array(
-	'post_type' => 'prize',
+    'post_type' => 'prize',
+	'order' => 'ASC',
+	'orderby' => 'meta_value',
+	'meta_key' => 'prize_id',
+    'posts_per_page'=>'-1'
 );
 
 $the_query = new WP_Query( $query_args );
