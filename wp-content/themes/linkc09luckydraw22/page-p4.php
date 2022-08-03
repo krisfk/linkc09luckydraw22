@@ -16,7 +16,7 @@
 
 get_header();
 
-echo get_field('no_stock_count_ot',101);
+// echo get_field('no_stock_count_ot',101);
 
 ?>
 
@@ -54,10 +54,10 @@ if ( $the_query->have_posts() ) {
         
 }
 
-array_push($prize_count_arr,get_field('stock_'.strtolower($_REQUEST['loc'])));
+array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['loc']),101));
 
-
-//print_r($prize_count_arr);
+// get_field('no_stock_count_ot',101)
+print_r($prize_count_arr);
     
 	wp_reset_postdata();
 }
