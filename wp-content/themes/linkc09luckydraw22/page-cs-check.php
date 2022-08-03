@@ -32,7 +32,7 @@ get_header(); ?>
     width: 100%;">
         <div class="orange" style="">領展會員號碼</div>
 
-        <form action="<?php echo get_site_url();?>/cs-check2">
+        <form action="<?php echo get_site_url();?>/cs-check2" method="post">
             <input maxlength="8" id="member-id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
         </form>
         <div class="error text-center" style="font-size:20px;">找不到會員</div>
