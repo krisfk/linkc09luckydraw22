@@ -42,19 +42,20 @@ $the_query = new WP_Query( $query_args );
 // echo $_REQUEST['loc'];
 if ( $the_query->have_posts() ) {
     $prize_count_arr=array();
+    $price_id_arr=array();
       
     while ( $the_query->have_posts() ) {
 		$the_query->the_post();
         // echo get_field('prize_id').'<br>';
 
-        
+        array_push($price_id_arr,get_the_ID());
        array_push($prize_count_arr,get_field('stock_'.strtolower($_REQUEST['loc'])));        
 }
 
     array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['loc']),101));
 
     // print_r($prize_count_arr);
-
+    print_r($price_id_arr);
 
     // echo '<br>';
 
@@ -87,6 +88,10 @@ if ( $the_query->have_posts() ) {
 
 
 ?>
+
+
+
+
     <img class="img-top-img-2" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_top_img.png" alt="">
 
     <div class="text-center page4-content-outer">
