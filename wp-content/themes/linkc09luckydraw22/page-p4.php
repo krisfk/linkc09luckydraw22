@@ -187,15 +187,18 @@ $(function() {
                     reward_place: '<?php echo $_REQUEST['loc'];?>'
                 })
                 .done(function(data) {
-                    alert("Data Loaded: " + data);
+
+
+                    setTimeout(() => {
+                        window.location =
+                            "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
+                    }, 3000);
+
+                    // alert("Data Loaded: " + data);
                 });
 
 
 
-            setTimeout(() => {
-                window.location =
-                    "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
-            }, 2000);
             // alert('成功領取獎品');
 
             // let isBoss = confirm("Are you the boss?");
