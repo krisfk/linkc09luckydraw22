@@ -173,6 +173,12 @@ $(function() {
 
         if (staff_input == 'link1234') {
 
+
+            alert('成功領取獎品');
+
+            // let isBoss = confirm("Are you the boss?");
+
+
         } else {
             $('.error').css({
                 'opacity': '1'
