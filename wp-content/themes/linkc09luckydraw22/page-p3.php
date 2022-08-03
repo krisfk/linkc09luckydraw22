@@ -48,7 +48,7 @@ get_header(); ?>
 
     </div>
 
-    <a href="<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>" class="img-back-btn-a"><img
+    <a href="<?php echo get_site_url();?>/p2/?loc=<?php echo $_REQUEST['loc'];?>" class="img-back-btn-a"><img
             src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_back_btn.png" alt=""></a>
 
     <img class="img-top-img-2" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_top_img.png" alt="">
