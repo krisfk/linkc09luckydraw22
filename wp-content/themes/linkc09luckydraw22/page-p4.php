@@ -131,7 +131,6 @@ if(!get_field('prize_name',$bingo_prize_post_id))
                         <div class="error" style="    position: absolute;
     top: 10px;
     right: -170px;
-    opacity: 1;
     z-index: 100;">密碼不正確</div>
                     </td>
 
