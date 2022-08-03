@@ -104,7 +104,10 @@ if ( $the_query->have_posts() ) {
             <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_p5_img.png" alt="">
 
             <div class="text-center">
-                <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/icon-06.png" alt="">
+                <!--     $school_logo_url = wp_get_attachment_image_src(get_field('school_logo'),'full')[0];
+ -->
+
+                <img src="<?php echo wp_get_attachment_image_src(get_field('icon'),'full')[0];?>" alt="">
             </div>
             <div class="text-center orange" style="font-size:38px">
                 <?php //echo $bingo_prize_post_id;?>
@@ -120,6 +123,10 @@ if ( $the_query->have_posts() ) {
 
                     <td>
                         <a href="javascript:void(0);">
+
+                            <?php
+                        
+                        ?>
                             <img style="position:relative; top: -1px;"
                                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_get_btn.png" alt="">
                         </a>
