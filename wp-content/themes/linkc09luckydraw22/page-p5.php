@@ -61,7 +61,7 @@ get_header(); ?>
                             <?php
                         
                         ?>
-                            <img style="position:relative; top: -1px;"
+                            <img style="position:relative; top: -1px;height:88px"
                                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png"
                                 alt="">
                         </a>
