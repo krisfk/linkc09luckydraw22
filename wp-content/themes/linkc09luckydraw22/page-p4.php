@@ -124,7 +124,7 @@ if(!get_field('prize_name',$bingo_prize_post_id))
                 <!-- Lowrarouge 水潤雙噴口負離子風筒CL-301（1部) -->
             </div>
 
-            <table class="mx-auto mt-3">
+            <table class="mx-auto mt-3 position-relative">
                 <tr>
                     <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="text"
                             placeholder="由工作人員輸入密碼">
