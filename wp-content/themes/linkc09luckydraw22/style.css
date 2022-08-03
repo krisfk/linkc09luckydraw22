@@ -384,6 +384,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .prize-record-table {
     text-align: left;
     margin: 1rem auto 0 auto;
+    width: 90%;
 }
 
 .prize-record-table td {
