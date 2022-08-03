@@ -175,6 +175,11 @@ $(function() {
 
 
             $('table').html('<span class="orange" style="font-size:50px;">成功領取獎品！</span>');
+
+            setTimeout(() => {
+                window.location =
+                    "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
+            }, 2000);
             // alert('成功領取獎品');
 
             // let isBoss = confirm("Are you the boss?");
