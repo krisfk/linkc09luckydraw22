@@ -54,7 +54,7 @@ array_push($prize_count_arr,get_field('no_stock_count_'.strtolower($_REQUEST['lo
 //print_r($prize_count_arr);
     
     $total_index = array_sum($prize_count_arr);
-    // echo $total_index;
+    echo $total_index;
     $rand_reuslt = rand(1,$total_index);
     echo $rand_reuslt;
 
