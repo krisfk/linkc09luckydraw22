@@ -16,7 +16,7 @@
 
 get_header();
 
-echo get_field('no_stock_count_yit',101);
+echo get_field('no_stock_count_ot',101);
 
 ?>
 
