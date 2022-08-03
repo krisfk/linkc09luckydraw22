@@ -108,7 +108,7 @@ if ( $the_query->have_posts() ) {
             </div>
             <div class="text-center orange" style="font-size:38px">
 
-                <?php echo get_field('prize_name',$bingo_prize_post_id);?>
+                <?php echo get_field('prize_name',$bingo_prize_post_id).' (1'.get_field('unit',$bingo_prize_post_id).')';?>
                 <!-- Lowrarouge 水潤雙噴口負離子風筒CL-301（1部) -->
             </div>
 
