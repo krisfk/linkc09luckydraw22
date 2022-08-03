@@ -83,8 +83,6 @@ if ( $the_query->have_posts() ) {
       $bingo_prize_post_id = $price_id_arr[$bingo_prize_idx-1];
     echo 'bingo_prize_post_id'.$bingo_prize_post_id;
 
-    //   echo $bingo_prize_post_id;
-    // $price_idx = 
     
 	wp_reset_postdata();
 
@@ -130,10 +128,11 @@ if(!get_field('prize_name',$bingo_prize_post_id))
                 <tr>
                     <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="text"
                             placeholder="由工作人員輸入密碼">
+                        <div class="error">密碼不正確</div>
                     </td>
 
                     <td>
-                        <a href="javascript:void(0);">
+                        <a href="javascript:void(0);" class="confirm-take">
 
                             <?php
                         
@@ -160,6 +159,24 @@ if(!get_field('prize_name',$bingo_prize_post_id))
 
 <script type="text/javascript">
 $(function() {
+
+    $('.confirm-take').click(function() {
+
+        $('.error').css({
+            'opacity': '0'
+        });
+
+        var staff_input = $('#staff-input').val();
+
+        if (staff_input == 'link1234') {
+
+        } else {
+            $('.error').css({
+                'opacity': '1'
+            });
+        }
+
+    })
 
     $('.confirm-btn').click(function() {
 
