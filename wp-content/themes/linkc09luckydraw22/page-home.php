@@ -41,8 +41,9 @@ get_header(); ?>
 <script type="text/javascript">
 $(function() {
 
-    $('.draw-btn-a').click({
-        $('form').submit();
+    $('.draw-btn-a').click(function() {
+
+
     })
 })
 </script>
