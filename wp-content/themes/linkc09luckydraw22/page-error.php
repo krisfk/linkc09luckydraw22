@@ -27,7 +27,7 @@ get_header(); ?>
 
 
 
-    <h1 class="mt-5">請在選擇地區：</h1>
+    <h1 class="mt-5">linkc09luckydraw22</h1>
     <ul class="mt-5 p-0 ms-0 d-inline-block">
         <li>
             <a href="<?php echo get_site_url();?>?loc=YIT">Yiu Tung(tablet)</a>
