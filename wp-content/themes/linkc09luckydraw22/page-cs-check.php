@@ -33,7 +33,7 @@ get_header(); ?>
         <div class="orange" style="">領展會員號碼</div>
 
         <input maxlength="8" id="member-id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
-        <div class="error">*請確定己輸入8位數會員號碼</div>
+        <div class="error">找不到會員</div>
 
 
 
