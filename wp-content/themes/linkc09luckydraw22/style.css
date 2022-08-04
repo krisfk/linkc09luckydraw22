@@ -166,11 +166,11 @@ body {
 }
 
 .tnc-txt-div-inner {
-    height: 258px;
+    height: 185px;
     overflow-y: scroll;
-    margin: 3rem 1.5rem;
+    margin: 2rem 1.5rem;
     overflow-x: hidden;
-    padding: 0px 3rem;
+    padding: 0px 1rem;
 }
 
 
