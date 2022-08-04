@@ -152,7 +152,7 @@ if(!get_field('prize_name',$bingo_prize_post_id))
                 </tr>
             </table>
 
-            <div class="text-center orange mt-4" style="font-size:2rem">
+            <div class="text-center orange mt-4" style="font-size:1.5rem">
                 會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
                 你已自動晋級「終極大抽獎」！<br>
                 得獎結果將於2022年10月25日於領展網站公佈，敬請留意
