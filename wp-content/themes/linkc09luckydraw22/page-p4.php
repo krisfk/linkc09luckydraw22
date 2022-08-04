@@ -145,7 +145,7 @@ if(!get_field('prize_name',$bingo_prize_post_id))
                             <?php
                         
                         ?>
-                            <img style="position:relative; top: -1px;"
+                            <img style="position:relative; top: -1px;height:60px"
                                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_get_btn.png" alt="">
                         </a>
                     </td>
