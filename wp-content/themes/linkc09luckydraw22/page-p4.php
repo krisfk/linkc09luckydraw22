@@ -192,7 +192,7 @@ $(function() {
 
 
 
-            $('table').html('<span class="orange" style="font-size:50px;">成功領取獎品！</span>');
+            $('table').html('<span class="orange" style="font-size:1.5rem;">成功領取獎品！</span>');
 
 
 

@@ -103,7 +103,7 @@ $(function() {
 
 
 
-            $('table').html('<span class="orange" style="font-size:50px;">多謝參與！</span>');
+            $('table').html('<span class="orange" style="font-size:1.5rem;">多謝參與！</span>');
 
 
 
