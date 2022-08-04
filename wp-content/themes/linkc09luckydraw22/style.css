@@ -124,11 +124,11 @@ body {
 
 .img-top-img-2 {
     position: absolute;
-    top: 180px;
+    top: 204px;
     left: 50%;
     transform: translate(-50%, -50%);
     /* width: 1506px; */
-    height: 251px;
+    height: 273px;
 }
 
 .draw-btn-a {
