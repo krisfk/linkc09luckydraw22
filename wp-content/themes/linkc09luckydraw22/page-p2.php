@@ -266,7 +266,7 @@ get_header(); ?>
 
             </div>
         </div>
-        <div class="mt-4">
+        <div class="mt-1">
 
 
             <input class="form-check-input agree-checkbox" type="checkbox" value="" id="flexCheckChecked">
