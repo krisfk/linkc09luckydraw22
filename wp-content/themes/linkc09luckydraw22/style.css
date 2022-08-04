@@ -100,12 +100,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: block;
     width: 2000px;
     height: 1200px;
-    /* width: 100vw; */
-    /* height: 100vh; */
-    /* width: 100%;
-    height: 100vh; */
     background: url(https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_tap_bg.jpg);
     background-size: cover;
+    /* max-width: 100%; */
     position: relative;
 }
 
@@ -246,7 +243,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .page4-content-outer {
     display: inline-block;
-    margin: 340px 0 0 0;
+    margin: 410px 0 0 0;
     width: 100%;
 }
 
@@ -464,28 +461,3 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .prize-record-div::-webkit-resizer {
     /* background: #111; */
 }
-
-.click-btn-div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background: #000; */
-    z-index: 100;
-    display: none;
-}
-
-
-/* @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
-    html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        height: 100vw;
-        overflow-x: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-    }
-} */
