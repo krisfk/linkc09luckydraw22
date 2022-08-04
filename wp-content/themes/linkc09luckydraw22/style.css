@@ -124,11 +124,11 @@ body {
 
 .img-top-img-2 {
     position: absolute;
-    top: 204px;
-    left: 50%;
+    top: 202px;
+    left: 618px;
     transform: translate(-50%, -50%);
     /* width: 1506px; */
-    height: 273px;
+    height: 271px;
 }
 
 .draw-btn-a {
@@ -145,11 +145,12 @@ body {
 .tnc-txt-div {
     display: inline-block;
     background: url(https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_t_c_box.png);
-    width: 1560px;
-    height: 512px;
-    margin: 408px auto 0 auto;
+    width: 837px;
+    height: 251px;
+    margin: 358px auto 0 auto;
     /* overflow: scroll; */
-    font-size: 1.5rem;
+    font-size: 1rem;
+    background-size: 100% 100%;
 }
 
 .tnc-txt-div-outer {
@@ -164,7 +165,7 @@ body {
 }
 
 .tnc-txt-div-inner {
-    height: 413px;
+    height: 258px;
     overflow-y: scroll;
     margin: 3rem 1.5rem;
     overflow-x: hidden;
