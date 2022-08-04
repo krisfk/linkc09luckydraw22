@@ -98,10 +98,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .main-container {
     display: block;
-    /* width: 2000px; */
-    /* height: 1200px; */
-    width: 100vw;
-    height: 100vh;
+    width: 2000px;
+    height: 1200px;
+    /* width: 100vw; */
+    /* height: 100vh; */
     background: url(https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_tap_bg.jpg);
     background-size: cover;
     position: relative;
