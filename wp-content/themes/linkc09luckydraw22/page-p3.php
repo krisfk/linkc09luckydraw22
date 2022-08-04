@@ -32,8 +32,13 @@ get_header(); ?>
                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_close_btn.png" alt=""></a>
 
 
-        <div class="text-center"
-            style="line-height:70px;font-size: 50px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: max-content;">
+        <div class="text-center" style="    line-height: 1.5;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;">
             你輸入的領展會員號碼為：<span class="confirm-member-id"></span> <br><br>
             你輸入的登記電話頭4位數字為：<span class="confirm-tel-four-num"></span> <br><br>
             請檢查是否正確，日後將會以此會員號碼登記之<br>電話號碼聯絡領獎事宜。
