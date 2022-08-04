@@ -62,7 +62,15 @@ if ( $the_query->have_posts() ) {
                         <?php 
                         $price_post_id = get_field('prize_post_id');
 
-                        echo get_field('prize_name',$price_post_id).' (1'.get_field('unit',$price_post_id).')';
+                        if($price_post_id==-1)
+                        {
+                            echo '無中獎';
+                        }
+                        else
+                        {
+                            echo get_field('prize_name',$price_post_id).' (1'.get_field('unit',$price_post_id).')';
+
+                        }
                         
                         ?>
 
