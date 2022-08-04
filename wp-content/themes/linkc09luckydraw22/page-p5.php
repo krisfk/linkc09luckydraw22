@@ -23,7 +23,10 @@ get_header(); ?>
 <?php endif; ?>
 
 
-<div class="main-container">
+<div class="main-container position-relative">
+
+    <div class="click-btn-div"></div>
+
 
     <!-- 
     <a href="<?php echo get_site_url();?>/p2" class="img-back-btn-a"><img
@@ -79,6 +82,13 @@ get_header(); ?>
 <script type="text/javascript">
 $(function() {
 
+
+
+    $('.click-btn-div').click(function() {
+        window.location =
+            "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
+    })
+
     $('.confirm-take').click(function() {
 
         $('.error').css({
@@ -104,11 +114,12 @@ $(function() {
                 })
                 .done(function(data) {
 
+                    $('.click-btn-div').fadeIn(0);
 
-                    setTimeout(() => {
-                        window.location =
-                            "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
-                    }, 3000);
+                    // setTimeout(() => {
+                    //     window.location =
+                    //         "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
+                    // }, 3000);
 
 
                 });
