@@ -96,6 +96,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
  * Measure..............The width of a line of text, in characters.
  */
 
+html,
+body {
+    background: #fef8d8;
+}
+
 .main-container {
     display: block;
     /* width: 2000px;
