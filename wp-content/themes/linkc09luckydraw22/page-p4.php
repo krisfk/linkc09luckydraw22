@@ -172,6 +172,11 @@ if(!get_field('prize_name',$bingo_prize_post_id))
 <script type="text/javascript">
 $(function() {
 
+
+    $('.click-btn-div').click(function() {
+        window.location =
+            "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
+    })
     $('.confirm-take').click(function() {
 
         $('.error').css({
@@ -198,10 +203,14 @@ $(function() {
                 .done(function(data) {
 
 
-                    setTimeout(() => {
-                        window.location =
-                            "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
-                    }, 3000);
+                    $('.click-btn-div').fadeIn(0);
+
+
+
+                    // setTimeout(() => {
+                    //     window.location =
+                    //         "<?php echo get_site_url();?>?loc=<?php echo $_REQUEST['loc'];?>"
+                    // }, 3000);
 
 
                 });
