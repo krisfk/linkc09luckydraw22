@@ -123,7 +123,7 @@ if(!get_field('prize_name',$bingo_prize_post_id))
                     src="<?php echo wp_get_attachment_image_src(get_field('icon',$bingo_prize_post_id),'full')[0];?>"
                     alt="">
             </div>
-            <div class="text-center orange" style="font-size:38px">
+            <div class="text-center orange" style="font-size:2rem">
                 <?php //echo $bingo_prize_post_id;?>
                 <?php echo get_field('prize_name',$bingo_prize_post_id).' (1'.get_field('unit',$bingo_prize_post_id).')';?>
                 <!-- Lowrarouge 水潤雙噴口負離子風筒CL-301（1部) -->
@@ -152,7 +152,7 @@ if(!get_field('prize_name',$bingo_prize_post_id))
                 </tr>
             </table>
 
-            <div class="text-center orange mt-4" style="font-size:40px">
+            <div class="text-center orange mt-4" style="font-size:2rem">
                 會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
                 你已自動晋級「終極大抽獎」！<br>
                 得獎結果將於2022年10月25日於領展網站公佈，敬請留意
