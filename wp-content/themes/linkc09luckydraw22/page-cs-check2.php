@@ -37,6 +37,7 @@ get_header(); ?>
             <?php
 $query_args = array(
     'post_type' => 'member_reward_record',
+    'posts_per_page' => -1,
     'meta_query' => array(
          array(
             'key' => 'member_id',
