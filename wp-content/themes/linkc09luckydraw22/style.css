@@ -126,7 +126,7 @@ body {
 .img-top-img-2 {
     position: absolute;
     top: 202px;
-    left: 617px;
+    left: 618px;
     transform: translate(-50%, -50%);
     /* width: 1506px; */
     height: 271px;
@@ -233,10 +233,13 @@ body {
 }
 
 .form-check-input {
-    width: 1.7em !important;
-    height: 1.7rem !important;
+    width: 1.3em !important;
+    height: 1.3rem !important;
     border: 3px solid #009fb2 !important;
-    margin: 0 0.3rem 0 0;
+    margin: 0px 0 0 0;
+    display: inline-block;
+    position: relative;
+    top: -2px;
 }
 
 .form-check-input:checked {
