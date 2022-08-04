@@ -278,7 +278,7 @@ get_header(); ?>
 
 
         </div>
-        <div class="mt-3">
+        <div class="mt-2">
 
             <a href="javascript:void(0);" class="agree-btn-a"><img style="height:70px"
                     src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_ok_btn.png" alt=""></a>
