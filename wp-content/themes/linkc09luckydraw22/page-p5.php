@@ -56,7 +56,7 @@ get_header(); ?>
     top: -5px;
     right: -145px;
     z-index: 100;
-    opacity: 1;">密碼不正確</div>
+    opacity: 0;">密碼不正確</div>
                     </td>
 
                     <td>
