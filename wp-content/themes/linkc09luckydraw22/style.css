@@ -480,7 +480,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
         width: 100vh;
         height: 100vw;
         /* overflow-x: hidden; */
-        /* position: absolute; */
+        position: absolute;
         top: 100%;
         left: 0;
     }
