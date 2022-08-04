@@ -40,7 +40,7 @@ get_header(); ?>
 
 
 
-            <div class="text-center orange" style="font-size: 2rem;font-weight: bold;margin: 100px 0 0 0;">
+            <div class="text-center orange" style="font-size: 2.5rem;font-weight: bold;margin: 100px 0 0 0;">
                 會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
                 多謝參與， <br>
                 你已自動晉級「終極大抽獎」！
@@ -48,7 +48,7 @@ get_header(); ?>
 
 
 
-            <table class="mx-auto mt-3 position-relative">
+            <table class="mx-auto mt-5 position-relative">
                 <tr>
                     <td class="pe-4"><input class="form-control page45-form-input" id="staff-input" type="password"
                             placeholder="由工作人員輸入密碼">
