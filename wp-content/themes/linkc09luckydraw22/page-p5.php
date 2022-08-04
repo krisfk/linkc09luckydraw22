@@ -40,7 +40,7 @@ get_header(); ?>
 
 
 
-            <div class="text-center orange mt-5" style="font-size: 70px;font-weight: bold;">
+            <div class="text-center orange" style="font-size: 70px;font-weight: bold;margin: 100px 0 0 0;">
                 會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
                 多謝參與， <br>
                 你已自動晉級「終極大抽獎」！
