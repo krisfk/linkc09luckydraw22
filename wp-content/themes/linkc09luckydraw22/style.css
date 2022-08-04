@@ -259,7 +259,7 @@ body {
 
 .page4-content-outer {
     display: inline-block;
-    margin: 410px 0 0 0;
+    margin: 164px 0 0 0;
     width: 100%;
 }
 
@@ -297,8 +297,8 @@ body {
 
 .page4-content input {
     border: 4px solid #009fb2 !important;
-    font-size: 2.5rem;
-    width: 700px;
+    font-size: 1.5rem;
+    width: 300px;
     padding-left: 15px;
     padding-right: 15px;
 }
