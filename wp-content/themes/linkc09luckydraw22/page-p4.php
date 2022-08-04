@@ -119,7 +119,7 @@ if(!get_field('prize_name',$bingo_prize_post_id))
                 <!--     $school_logo_url = wp_get_attachment_image_src(get_field('school_logo'),'full')[0];
  -->
 
-                <img style="height:180px;"
+                <img style="height:170px;"
                     src="<?php echo wp_get_attachment_image_src(get_field('icon',$bingo_prize_post_id),'full')[0];?>"
                     alt="">
             </div>
