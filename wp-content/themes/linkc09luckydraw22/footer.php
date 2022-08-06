@@ -26,16 +26,6 @@
 
 <?php wp_footer(); ?>
 
-<script type="text/javascript">
-$(function() {
-    var loc = '<?php echo $_REQUEST['loc'];?>';
-
-    $('link[rel="manifest"]').attr('href', 'https://linkc09luckydraw22.com/test');
-    $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/test');
-
-})
-</script>
-
 </body>
 
 </html>
