@@ -35,6 +35,14 @@
     <!-- <link rel="prefetch" href="https://linkc09luckydraw22.com/manifest/manifest-YIT.json"> -->
 
 
+    <link rel="manifest" href="manifest.json" />
+    <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+        // register service worker
+        navigator.serviceWorker.register('service-worker.js');
+    }
+    </script>
+
 </head>
 
 <body <?php body_class(); ?>>
