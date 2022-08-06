@@ -434,7 +434,7 @@ get_header(); ?>
         <div class="mt-1">
 
 
-            <input class="form-check-input agree-checkbox" type="checkbox" value="" id="flexCheckChecked">
+            <input class="form-check-input agree-checkbox" type="checkbox" value="" id="flexCheckChecked" disabled>
             <label class="form-check-label orange" for="flexCheckChecked" style="font-size:1rem">
                 我已閱讀條款及細則
             </label>
@@ -463,7 +463,12 @@ $(function() {
 
     $('.tnc-txt-div-inner').scroll(function() {
 
-        console.log(5);
+        // console.log(5);
+        if ($('.tnc-txt-div-inner').scrollTop() > $('.tnc-txt-div-inner').prop("scrollHeight") - 300) {
+
+            //enaable
+        }
+        // console.log(area.scrollTop + area.offsetHeight)
     })
     //    return ((area.scrollTop + area.offsetHeight) > area.scrollHeight);
 
