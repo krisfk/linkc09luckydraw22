@@ -35,11 +35,12 @@
     <!-- <link rel="prefetch" href="https://linkc09luckydraw22.com/manifest/manifest-YIT.json"> -->
 
 
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="https://linkc09luckydraw22.com/manifest.json" />
+
     <script type="text/javascript">
     if ('serviceWorker' in navigator) {
         // register service worker
-        navigator.serviceWorker.register('service-worker.js');
+        navigator.serviceWorker.register('https://linkc09luckydraw22.com/service-worker.js');
     }
     </script>
 
