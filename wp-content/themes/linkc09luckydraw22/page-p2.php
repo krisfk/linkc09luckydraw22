@@ -461,6 +461,13 @@ get_header(); ?>
 <script type="text/javascript">
 $(function() {
 
+    $('.tnc-txt-div-inner').scroll(function() {
+
+        console.log(5);
+    })
+    //    return ((area.scrollTop + area.offsetHeight) > area.scrollHeight);
+
+
     $('.agree-btn-a').click(function() {
 
         if ($('.agree-checkbox').is(':checked')) {
