@@ -466,6 +466,7 @@ $(function() {
         // console.log(5);
         if ($('.tnc-txt-div-inner').scrollTop() > $('.tnc-txt-div-inner').prop("scrollHeight") - 300) {
 
+            $('.agree-checkbox').removeAttr('disabled');
             //enaable
         }
         // console.log(area.scrollTop + area.offsetHeight)
