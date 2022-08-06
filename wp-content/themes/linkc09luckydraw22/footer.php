@@ -26,6 +26,18 @@
 
 <?php wp_footer(); ?>
 
+<script type="text/javascript">
+$(function() {
+
+    var loc = '<?php echo $_REQUEST['loc'];?>';
+    $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' + loc +
+        '.json');
+    $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' + loc +
+        '.json');
+
+})
+</script>
+
 </body>
 
 </html>
