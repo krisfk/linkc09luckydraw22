@@ -30,16 +30,16 @@
 $(function() {
 
 
-    $(window).on('load', function() {
-        var loc = '<?php echo $_REQUEST['loc'];?>';
-        $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' +
-            loc +
-            '.json');
-        $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' +
-            loc +
-            '.json');
+    // $(window).on('load', function() {
+    var loc = '<?php echo $_REQUEST['loc'];?>';
+    $('link[rel="manifest"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' +
+        loc +
+        '.json');
+    $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' +
+        loc +
+        '.json');
 
-    });
+    // });
 
 })
 </script>
