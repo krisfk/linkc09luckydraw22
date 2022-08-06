@@ -30,9 +30,9 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 
-    <!--  -->
-    <link rel="manifest" href="https://linkc09luckydraw22.com/manifest/manifest-YIT.json">
-    <link rel="prefetch" href="https://linkc09luckydraw22.com/manifest/manifest-YIT.json">
+
+    <!-- <link rel="manifest" href="https://linkc09luckydraw22.com/manifest/manifest-YIT.json"> -->
+    <!-- <link rel="prefetch" href="https://linkc09luckydraw22.com/manifest/manifest-YIT.json"> -->
 
 
 </head>

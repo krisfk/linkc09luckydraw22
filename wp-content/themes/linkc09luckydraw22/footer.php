@@ -27,18 +27,22 @@
 <?php wp_footer(); ?>
 
 <script type="text/javascript">
-// $(function() {
+$(function() {
 
 
-//     var loc = '<?php echo $_REQUEST['loc'];?>';
-//     $('link[rel="manifest"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' +
-//         loc +
-//         '.json');
-//     $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' +
-//         loc +
-//         '.json');
+    var loc = '<?php echo $_REQUEST['loc'];?>';
 
-// })
+    $('link[rel="manifest"]').attr('href', 'https://linkc09luckydraw22.com/test');
+    $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/test');
+
+    // $('link[rel="manifest"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' +
+    //     loc +
+    //     '.json');
+    // $('link[rel="prefetch"]').attr('href', 'https://linkc09luckydraw22.com/manifest/manifest-' +
+    //     loc +
+    //     '.json');
+
+})
 </script>
 
 </body>
