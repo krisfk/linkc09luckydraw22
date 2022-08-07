@@ -23,7 +23,7 @@ get_header(); ?>
 <?php endif; ?>
 
 
-<div class="mobile-main-container mobile-main-container-2 text-center d-inline-block error-container">
+<div class="mobile-main-container mobile-main-container-2 text-center d-inline-block">
 
     <h1>List Data</h1>
 
