@@ -25,7 +25,7 @@ get_header(); ?>
 
 <div class="mobile-main-container mobile-main-container-2 text-center d-inline-block">
 
-    <h1>List Data</h1>
+    <h1 class="mt-5">List Data</h1>
 
     <div class="mb-4">shown location: <?php  echo $_REQUEST['show'] ? $_REQUEST['show']:'All'?></div>
     <ul class="list-data-filter-ul p-0">
