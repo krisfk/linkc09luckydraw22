@@ -505,3 +505,14 @@ h1 {
     color: #a2a2a2;
     font-size: 0.95rem;
 }
+
+.list-data-filter-ul {}
+
+.list-data-filter-ul li {
+    display: inline-block;
+}
+
+.list-data-filter-ul li a {
+    text-decoration: underline;
+    color: #000;
+}
