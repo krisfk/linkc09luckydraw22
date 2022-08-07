@@ -27,6 +27,7 @@ get_header(); ?>
 
     <h1>List Data</h1>
 
+    <div>shown location: <?php  echo $_REQUEST['show'] ? $_REQUEST['show']:'All'?></div>
     <ul class="list-data-filter-ul p-0">
         <li>
             <a href="?show=ALL">ALL</a>
