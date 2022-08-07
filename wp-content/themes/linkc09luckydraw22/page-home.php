@@ -32,6 +32,8 @@ get_header(); ?>
     <a class="draw-btn-a" href="javascript:void(0);">
         <img class="draw-btn" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_draw_btn.png" alt="">
     </a>
+
+    <div class="raffle-number">推廣生意的競賽牌照號碼：xxxxx</div>
 </div>
 
 <form method="post" action="<?php echo get_site_url();?>/p2">
