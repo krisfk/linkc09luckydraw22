@@ -26,7 +26,10 @@ get_header(); ?>
 <div class="mobile-main-container mobile-main-container-2 text-center d-inline-block error-container">
 
 
-    please enter the location in the url. <br>
+
+    Location Error. <br></br>
+
+    Please enter the correct location in the url.(YIT/HT/OT/WT/YAT) <br>
     https://linkc09luckydraw22.com/?loc=____
 
     <!-- <h1 class="mt-5">linkc09luckydraw22</h1>
