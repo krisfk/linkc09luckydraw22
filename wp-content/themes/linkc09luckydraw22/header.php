@@ -67,12 +67,12 @@
 
 
 
-                    if(!$_REQUEST['loc'] && $_REQUEST['loc']!='-1' && ($post_slug !='cs-check' && $post_slug !='cs-check2') )
+                    if(!$_REQUEST['loc'] && $_REQUEST['loc']!='-1' && ($post_slug !='cs-check' && $post_slug !='cs-check2'&& $post_slug !='list-data') )
                     {
                         wp_redirect(get_site_url().'/menu?loc=-1');
                     }
 
-                    if( !($_REQUEST['loc'] =='YIT' || $_REQUEST['loc'] =='HT' ||$_REQUEST['loc'] =='OT' ||$_REQUEST['loc'] =='WT' || $_REQUEST['loc'] =='YAT') && $_REQUEST['loc']!='-1'&& ($post_slug !='cs-check' && $post_slug !='cs-check2'))
+                    if( !($_REQUEST['loc'] =='YIT' || $_REQUEST['loc'] =='HT' ||$_REQUEST['loc'] =='OT' ||$_REQUEST['loc'] =='WT' || $_REQUEST['loc'] =='YAT') && $_REQUEST['loc']!='-1'&& ($post_slug !='cs-check' && $post_slug !='cs-check2'&& $post_slug !='list-data'))
                     {
                         wp_redirect(get_site_url().'/menu?loc=-1');
                     }
