@@ -27,7 +27,7 @@ get_header(); ?>
 
     <h1>List Data</h1>
 
-    <ul class="list-data-filter-ul">
+    <ul class="list-data-filter-ul p-0">
         <li>
             <a href="?show=ALL">ALL</a>
         </li>
