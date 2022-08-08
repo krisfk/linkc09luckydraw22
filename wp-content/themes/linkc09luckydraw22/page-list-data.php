@@ -57,6 +57,47 @@ get_header(); ?>
     </div>
 
 
+    <?php
+    
+                    
+// Get arguments for all posts
+$args = array( 
+    'post_type' => 'member_reward_record',
+    'posts_per_page' => -1,
+    // 'meta_query' => array(
+    //      array(
+    //         'key' => 'member_id',
+    //         'value' => $_REQUEST['member_id'],
+    //         'compare' => '=',
+    //      ),
+    // ),
+);
+$the_query = new WP_Query( $args );
+if ( $the_query->have_posts() ):
+
+	while ( $the_query->have_posts() ): $the_query->the_post();
+		$fields = get_fields();
+        
+   echo 1;
+
+endwhile;
+wp_reset_postdata();
+
+endif;
+?>
+
+    <?php
+$table='<table class="excel-table mt-5" id="excel-table">
+        <tr>';
+        foreach($sorted_meta_data as $meta_data)
+        {
+            $table.='<td class="fw-bold text-light bg-dark">'.$meta_data['label'].'</td>';
+            array_push( $table_th_arr,$meta_data['label']);
+            array_push( $field_key_arr,$meta_data['name']);
+        }
+    $table .='</tr>';  
+    ?>
+
 
 
 
