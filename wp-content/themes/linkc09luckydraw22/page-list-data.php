@@ -52,7 +52,7 @@ get_header(); ?>
 
 
 
-    <div class="text-start mt-5">
+    <div class="text-center mt-5">
         <a href="javascript:void(0);" class="btn btn-info getfile">EXPORT</a>
     </div>
 
@@ -88,7 +88,7 @@ get_header(); ?>
 $the_query = new WP_Query( $args );
 $idx=0;
 ?>
-    <table class="excel-table mt-5" id="excel-table">
+    <table class="excel-table  mx-auto mt-5" id="excel-table">
         <tr>
             <td>會員號碼</td>
             <td>會員電話</td>
