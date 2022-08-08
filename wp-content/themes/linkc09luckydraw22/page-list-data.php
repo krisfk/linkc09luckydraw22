@@ -92,7 +92,21 @@ if ( $the_query->have_posts() ):
         <tr>
             <td><?php echo get_field('member_id');?></td>
             <td><?php echo get_field('member_tel');?></td>
-            <td><?php echo get_field('prize_name',get_field('prize_post_id')).' (1'.get_field('unit',get_field('prize_post_id')).')';?>
+            <td>
+
+                <?php 
+            
+            if(get_field('prize_name',get_field('prize_post_id')))
+            {
+                echo get_field('prize_name',get_field('prize_post_id')).' (1'.get_field('unit',get_field('prize_post_id')).')';
+            
+            }
+            else
+            {
+                echo '無中獎';
+            }
+            
+            ?>
             </td>
             <td><?php echo get_field('reward_datetime');?></td>
             <td><?php echo get_field('reward_place');?></td>
