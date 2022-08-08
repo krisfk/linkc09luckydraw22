@@ -105,9 +105,7 @@ if ( $the_query->have_posts() ):
         <tr>
             <td><?php echo get_field('member_id');?></td>
             <td><?php echo get_field('member_tel');?></td>
-            <td>
-
-                <?php 
+            <td><?php 
             
             if(get_field('prize_name',get_field('prize_post_id')))
             {
@@ -119,8 +117,7 @@ if ( $the_query->have_posts() ):
                 echo '無中獎';
             }
             
-            ?>
-            </td>
+            ?></td>
             <td><?php echo get_field('reward_datetime');?></td>
             <td><?php echo get_field('reward_place');?></td>
 
