@@ -59,19 +59,32 @@ get_header(); ?>
 
     <?php
     
+
+    if($_REQUEST['show'])
+    {
+        $args = array( 
+            'post_type' => 'reward_place',
+            'posts_per_page' => -1,
+            
+            'meta_query' => array(
+                 array(
+                    'key' => 'member_id',
+                    'value' => $_REQUEST['show'],
+                    'compare' => '=',
+                 ),
+            ),
+        );
+
+    }
+    else
+    {
+        $args = array( 
+            'post_type' => 'member_reward_record',
+            'posts_per_page' => -1
+        );
+    }
                     
-// Get arguments for all posts
-$args = array( 
-    'post_type' => 'member_reward_record',
-    'posts_per_page' => -1,
-    // 'meta_query' => array(
-    //      array(
-    //         'key' => 'member_id',
-    //         'value' => $_REQUEST['member_id'],
-    //         'compare' => '=',
-    //      ),
-    // ),
-);
+
 $the_query = new WP_Query( $args );
 $idx=0;
 ?>
