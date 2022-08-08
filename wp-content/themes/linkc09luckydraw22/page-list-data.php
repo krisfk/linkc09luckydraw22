@@ -77,11 +77,11 @@ $idx=0;
 ?>
     <table class="excel-table mt-5" id="excel-table">
         <tr>
-            <th>會員號碼</th>
-            <th>會員電話</th>
-            <th>領取獎品</th>
-            <th>領取時間</th>
-            <th>領取地點</th>
+            <td>會員號碼</td>
+            <td>會員電話</td>
+            <td>領取獎品</td>
+            <td>領取時間</td>
+            <td>領取地點</td>
         </tr>
         <?php
 if ( $the_query->have_posts() ):
