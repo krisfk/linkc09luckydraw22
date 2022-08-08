@@ -36,16 +36,16 @@ get_header(); ?>
             <a href="?show=YIT">YIT</a>
         </li>
         <li>
-            <a href="?show=YIT">HT</a>
+            <a href="?show=HT">HT</a>
         </li>
         <li>
-            <a href="?show=YIT">OT</a>
+            <a href="?show=OT">OT</a>
         </li>
         <li>
-            <a href="?show=YIT">WT</a>
+            <a href="?show=WT">WT</a>
         </li>
         <li>
-            <a href="?show=YIT">YAT</a>
+            <a href="?show=YAT">YAT</a>
         </li>
     </ul>
 
