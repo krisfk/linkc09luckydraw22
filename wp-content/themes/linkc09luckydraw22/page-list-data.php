@@ -90,7 +90,7 @@ $idx=0;
 ?>
     <table class="excel-table mt-5" id="excel-table">
         <tr>
-            <td style="background:#000;">會員號碼</td>
+            <td>會員號碼</td>
             <td>會員電話</td>
             <td>領取獎品</td>
             <td>領取時間</td>
