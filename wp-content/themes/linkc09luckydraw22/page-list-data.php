@@ -79,9 +79,10 @@ if ( $the_query->have_posts() ):
 	while ( $the_query->have_posts() ): $the_query->the_post();
 		$fields = get_fields();
         
-   echo $idx;
-   <br>
+   echo $idx.'<br>';
    $idx++;
+//    <br>
+
 
 endwhile;
 wp_reset_postdata();
