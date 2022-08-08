@@ -183,7 +183,10 @@ table.excel-table td {
 $(function() {
     $('.getfile').click(
         function() {
-            exportTableToCSV.apply(this, [$('#excel-table'), 'tutor-list.csv']);
+            var show_location = '<?php echo $_REQUEST['show'] ? $_REQUEST['show']:'all';?>';
+            exportTableToCSV.apply(this, [$('#excel-table'), 'reward-list(' + show_location +
+                ').csv'
+            ]);
         });
 
 })
