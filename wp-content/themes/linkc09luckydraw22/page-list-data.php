@@ -184,7 +184,7 @@ $(function() {
     $('.getfile').click(
         function() {
             var show_location = '<?php echo $_REQUEST['show'] ? $_REQUEST['show']:'all';?>';
-            exportTableToCSV.apply(this, [$('#excel-table'), 'reward-list(' + show_location +
+            exportTableToCSV.apply(this, [$('#excel-table'), 'reward-list(' + show_location.toLowerCase() +
                 ').csv'
             ]);
         });
