@@ -73,12 +73,14 @@ $args = array(
     // ),
 );
 $the_query = new WP_Query( $args );
+$idx=0;
 if ( $the_query->have_posts() ):
 
 	while ( $the_query->have_posts() ): $the_query->the_post();
 		$fields = get_fields();
         
-   echo 1;
+   echo $idx;
+   $idx++;
 
 endwhile;
 wp_reset_postdata();
