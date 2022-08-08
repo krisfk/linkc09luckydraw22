@@ -80,6 +80,7 @@ if ( $the_query->have_posts() ):
 		$fields = get_fields();
         
    echo $idx;
+   <br>
    $idx++;
 
 endwhile;
