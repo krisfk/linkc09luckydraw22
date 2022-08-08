@@ -74,32 +74,48 @@ $args = array(
 );
 $the_query = new WP_Query( $args );
 $idx=0;
+?>
+    <table class="excel-table mt-5" id="excel-table">
+        <tr>
+            <th>會員號碼</th>
+            <th>會員電話</th>
+            <th>領取獎品</th>
+            <th>領取時間</th>
+            <th>領取地點</th>
+        </tr>
+        <?php
 if ( $the_query->have_posts() ):
 
 	while ( $the_query->have_posts() ): $the_query->the_post();
-		$fields = get_fields();
-        
-   echo $idx.'<br>';
-   $idx++;
-//    <br>
 
+    ?>
+        <tr>
+            <td><?php echo get_field('member_id');?></td>
+            <td><?php echo get_field('member_tel');?></td>
+            <td></td>
+            <td><?php echo get_field('reward_datetime');?></td>
+            <td><?php echo get_field('reward_place');?></td>
+
+        </tr>
+        <?php
 
 endwhile;
 wp_reset_postdata();
 
 endif;
 ?>
+    </table>
 
     <?php
-$table='<table class="excel-table mt-5" id="excel-table">
-        <tr>';
-        foreach($sorted_meta_data as $meta_data)
-        {
-            $table.='<td class="fw-bold text-light bg-dark">'.$meta_data['label'].'</td>';
-            array_push( $table_th_arr,$meta_data['label']);
-            array_push( $field_key_arr,$meta_data['name']);
-        }
-    $table .='</tr>';  
+// $table='<table class="excel-table mt-5" id="excel-table">
+//         <tr>';
+//         // foreach($sorted_meta_data as $meta_data)
+//         // {
+//         //     $table.='<td class="fw-bold text-light bg-dark">'.$meta_data['label'].'</td>';
+//         //     array_push( $table_th_arr,$meta_data['label']);
+//         //     array_push( $field_key_arr,$meta_data['name']);
+//         // }
+//     $table .='</tr>';  
     ?>
 
 
