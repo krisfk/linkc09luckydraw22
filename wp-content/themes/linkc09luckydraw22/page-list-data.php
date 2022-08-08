@@ -60,7 +60,7 @@ get_header(); ?>
     <?php
     
 
-    if($_REQUEST['show']&&$_REQUEST['show']!='all')
+    if($_REQUEST['show']&&$_REQUEST['show']!='ALL')
     {
         $args = array( 
             'post_type' => 'member_reward_record',
