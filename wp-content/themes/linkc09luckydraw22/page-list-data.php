@@ -63,12 +63,12 @@ get_header(); ?>
     if($_REQUEST['show'])
     {
         $args = array( 
-            'post_type' => 'reward_place',
+            'post_type' => 'member_reward_record',
             'posts_per_page' => -1,
             
             'meta_query' => array(
                  array(
-                    'key' => 'member_id',
+                    'key' => 'reward_place',
                     'value' => $_REQUEST['show'],
                     'compare' => '=',
                  ),
