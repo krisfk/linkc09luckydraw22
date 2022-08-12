@@ -40,8 +40,19 @@ get_header(); ?>
     transform: translate(-50%, -50%);
     width: max-content;">
             你輸入的領展會員號碼為：<span class="confirm-member-id"></span> <br><br>
-            你輸入的登記電話頭4位數字為：<span class="confirm-tel-four-num"></span> <br><br>
+            你輸入的已登記的領展會員電話號碼頭4位數字為：<span class="confirm-tel-four-num"></span> <br><br>
             請檢查是否正確，日後將會以此會員號碼登記之<br>電話號碼聯絡領獎事宜。
+
+
+            <div>
+                <h2>請檢查以上資料是否正確</h2>
+                <div>
+                    日後將會以登記會員時綁定之電話號碼聯絡「終極大抽
+                    獎」的得獎者有關領獎事宜。如以上資料不正確導致無
+                    法聯絡，是次抽獎活動之登記將會被作廢並將不獲任何
+                    通知。如需更改資料請返回上一頁。
+                </div>
+            </div>
             <div class="mt-5"> <a href="javascript:void(0);" class="confirm-btn"><img style="height:80px"
                         src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png" alt=""></a>
             </div>
@@ -66,16 +77,16 @@ get_header(); ?>
                     <td class="text-end orange">
                         <label for="member-id">領展會員號碼：</label>
                     </td>
-                    <td><input maxlength="8" id="member-id" type="text" class="form-control" placeholder="請輸入8位數會員號碼">
-                        <div class="error">*請確定已輸入8位數會員號碼</div>
+                    <td><input maxlength="8" id="member-id" type="text" class="form-control" placeholder="請輸入8位數字會員號碼">
+                        <div class="error">*請確定已輸入8位數字會員號碼</div>
                     </td>
                 </tr>
                 <tr>
                     <td class="text-end orange">
-                        <label for="tel-four-num">登記電話頭4位數字：</label>
+                        <label for="tel-four-num">已登記的領展會員電話號碼頭4位數字：</label>
                     </td>
                     <td><input maxlength="4" id="tel-four-num" type="text" class="form-control"
-                            placeholder="如1234-5678，請填1234">
+                            placeholder="如6234-5678，請填6234">
                         <div class="error">*請確定已輸入登記電話頭4位數宇</div>
                     </td>
                 </tr>
