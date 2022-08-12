@@ -45,8 +45,11 @@ get_header(); ?>
 
 
             <div class="mt-4">
-                <h2>請檢查以上資料是否正確</h2>
-                <div style="width:400px">
+                <h4>請檢查以上資料是否正確</h4>
+                <div style="    width: 700px;
+    margin: 0 auto;
+    font-size: 17px;
+    text-align: left;">
                     日後將會以登記會員時綁定之電話號碼聯絡「終極大抽
                     獎」的得獎者有關領獎事宜。如以上資料不正確導致無
                     法聯絡，是次抽獎活動之登記將會被作廢並將不獲任何
