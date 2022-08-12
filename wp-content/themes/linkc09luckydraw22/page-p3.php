@@ -51,6 +51,7 @@ get_header(); ?>
                     獎」的得獎者有關領獎事宜。如以上資料不正確導致無
                     法聯絡，是次抽獎活動之登記將會被作廢並將不獲任何
                     通知。如需更改資料請返回上一頁。
+                    <!--  -->
                 </div>
             </div>
             <div class="mt-5"> <a href="javascript:void(0);" class="confirm-btn"><img style="height:80px"
