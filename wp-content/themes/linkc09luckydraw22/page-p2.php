@@ -438,9 +438,12 @@ get_header(); ?>
 
             <input class="form-check-input agree-checkbox" type="checkbox" value="" id="flexCheckChecked" disabled>
             <label class="form-check-label orange" for="flexCheckChecked" style="font-size:1rem">
-                我已閱讀條款及細則
+                我已閱讀條款與細則
             </label>
-            <div class="error text-center mt-1" style="font-size:1rem">前往下一步必須同意條款及細則</div>
+            <div class="error text-center mt-1" style="font-size:1rem">
+                <!-- 前往下一步必須同意條款及細則 -->
+                請確認已詳閲及明白上述所有條款與細則
+            </div>
 
 
 
