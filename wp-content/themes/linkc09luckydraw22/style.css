@@ -516,3 +516,11 @@ h1 {
     text-decoration: underline;
     color: #000;
 }
+
+html {
+    overscroll-behavior-x: none;
+}
+
+body {
+    overscroll-behavior-x: none;
+}
