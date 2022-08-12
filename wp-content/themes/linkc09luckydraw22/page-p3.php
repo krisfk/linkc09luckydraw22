@@ -33,7 +33,7 @@ get_header(); ?>
 
 
         <div class="text-center" style="    line-height: 1.5;
-    font-size: 2rem;
+    font-size: 1.8rem;
     position: absolute;
     top: 50%;
     left: 50%;
