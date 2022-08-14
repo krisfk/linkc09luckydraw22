@@ -29,7 +29,9 @@ get_header(); ?>
 
     Location Error. <br></br>
 
-    Please enter the correct location in the url.(YIT/HT/OT/WT/YAT) <br>
+    <!-- Please enter the correct location in the url.(YIT/HT/OT/WT/YAT) -->
+    Please enter the correct location in the url.(OT/WT/YAT)
+    <br>
     https://linkc09luckydraw22.com/?loc=____
 
     <!-- <h1 class="mt-5">linkc09luckydraw22</h1>
