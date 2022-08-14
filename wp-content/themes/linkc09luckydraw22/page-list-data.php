@@ -32,12 +32,12 @@ get_header(); ?>
         <li>
             <a href="?show=ALL">ALL</a>
         </li>
-        <li>
+        <!-- <li>
             <a href="?show=YIT">YIT</a>
         </li>
         <li>
             <a href="?show=HT">HT</a>
-        </li>
+        </li> -->
         <li>
             <a href="?show=OT">OT</a>
         </li>
