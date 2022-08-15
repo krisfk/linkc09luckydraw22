@@ -102,6 +102,11 @@ body {
 }
 
 .main-container {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     display: block;
     /* width: 2000px;
     height: 1200px; */
@@ -519,18 +524,8 @@ h1 {
 
 html {
     overscroll-behavior-x: none !important;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 body {
     overscroll-behavior-x: none !important;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
