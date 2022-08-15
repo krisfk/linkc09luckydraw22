@@ -42,7 +42,15 @@
         // register service worker
         navigator.serviceWorker.register('https://linkc09luckydraw22.com/service-worker.js');
     }
+
+    window.ontouchstart = function(event) {
+        if (event.touches.length > 1) { //If there is more than one touch
+            event.preventDefault();
+        }
+    }
     </script>
+
+
 
 </head>
 
