@@ -44,12 +44,11 @@ get_header(); ?>
 
             <!-- 請檢查是否正確，日後將會以此會員號碼登記之<br>電話號碼聯絡領獎事宜。 -->
 
-            <br><br>
             <div class="">
                 <h4>請檢查以上資料是否正確</h4>
                 <div style="    width: 700px;
     margin: 0 auto;
-    font-size: 17px;
+    
     text-align: left;">
                     日後將會以登記會員時綁定之電話號碼聯絡「終極大抽
                     獎」的得獎者有關領獎事宜。如以上資料不正確導致無
