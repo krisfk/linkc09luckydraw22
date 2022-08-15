@@ -46,7 +46,7 @@ get_header(); ?>
 
             <div class="">
                 <div class="text-center">請檢查以上資料是否正確</div>
-                <div style="    width: 700px;
+                <div style="    width: 760px;
     margin: 0 auto;
     
     text-align: center;">
