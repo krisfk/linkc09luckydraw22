@@ -45,7 +45,7 @@ get_header(); ?>
             <!-- 請檢查是否正確，日後將會以此會員號碼登記之<br>電話號碼聯絡領獎事宜。 -->
 
             <div class="">
-                <h1>請檢查以上資料是否正確</h1>
+                <div class="text-center">請檢查以上資料是否正確</div>
                 <div style="    width: 700px;
     margin: 0 auto;
     
