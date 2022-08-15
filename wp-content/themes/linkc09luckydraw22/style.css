@@ -518,9 +518,9 @@ h1 {
 }
 
 html {
-    overscroll-behavior-x: none;
+    overscroll-behavior-x: none !important;
 }
 
 body {
-    overscroll-behavior-x: none;
+    overscroll-behavior-x: none !important;
 }
