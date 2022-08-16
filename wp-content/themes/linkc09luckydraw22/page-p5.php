@@ -45,6 +45,7 @@ get_header(); ?>
                 多謝參與， <br>
                 <span style="font-size:1.6rem;font-weight:bold;">你已自動晉級「終極大抽獎」！</span>
             </div>
+            <div>得獎結果將於2002年10月25日於領展網站公佈，敬請留意。</div>
 
 
 
