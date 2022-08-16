@@ -50,8 +50,11 @@ get_header(); ?>
     margin: 0 auto;
     
     text-align: center;">
-                    日後將會以登記會員時綁定之電話號碼聯絡「終極大抽獎」的得獎者有關領獎事宜。如以上資料不正確導致無法聯絡，是次抽獎活動之登記將會被作廢並將不獲任何通知。如需更改資料請按<img
-                        src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_close_btn.png" alt=""> 返回上一頁。
+                    日後將會以登記會員時綁定之電話號碼聯絡「終極大抽獎」的得獎者有關領獎事宜。如以上資料不正確導致無法聯絡，是次抽獎活動之登記將會被作廢並將不獲任何通知。如需更改資料請按<img style="    height: 27px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    left: 4px;" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_close_btn.png" alt=""> 返回上一頁。
                     <!--  -->
                 </div>
             </div>
