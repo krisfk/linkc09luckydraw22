@@ -44,8 +44,9 @@ get_header(); ?>
                 會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
                 多謝參與， <br>
                 <span style="font-size:1.6rem;font-weight:bold;">你已自動晉級「終極大抽獎」！</span>
+                <div>得獎結果將於2002年10月25日於領展網站公佈，敬請留意。</div>
+
             </div>
-            <div>得獎結果將於2002年10月25日於領展網站公佈，敬請留意。</div>
 
 
 
