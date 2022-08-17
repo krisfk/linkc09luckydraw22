@@ -40,7 +40,10 @@
     //   echo $post_slug;
     if($post_slug=='cs-check')
     {
-        
+        ?>
+    <link rel="manifest" href="https://linkc09luckydraw22.com/manifest-cscheck.json" />
+
+    <?php
     }
     else{
         ?>
