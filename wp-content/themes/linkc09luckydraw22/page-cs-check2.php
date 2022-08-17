@@ -132,7 +132,7 @@ if ( $the_query->have_posts() ) {
 
 
     <div class="text-center" style="position: absolute;
-    bottom: 1rem;
+    top: 35rem;
     width: 100%;">
         <!--  -->
         <a class="d-inline-block find-btn" href="<?php echo get_site_url();?>/cs-check"><img style="height:50px"
