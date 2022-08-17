@@ -43,8 +43,8 @@ get_header(); ?>
     </div>
 
 
-    <div class="text-center" style="position: absolute;
-    bottom: 1rem;
+    <div class="text-center" style="    position: absolute;
+    top: 37rem;
     width: 100%;">
         <!--  -->
         <a class="d-inline-block find-btn" href="javascript:void(0);"><img style="height:50px"
