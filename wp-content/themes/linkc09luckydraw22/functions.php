@@ -760,3 +760,6 @@ function app_output_buffer() {
 	ob_start();
 } // soi_output_buffer
 add_action('init', 'app_output_buffer');
+
+
+add_filter('jpeg_quality', function($arg){return 100;});
