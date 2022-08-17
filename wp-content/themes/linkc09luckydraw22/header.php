@@ -37,11 +37,22 @@
     <?php 
       global $post;
       $post_slug = $post->post_name;
-      echo $post_slug;
+    //   echo $post_slug;
+    if($post_slug=='cs-check')
+    {
+        
+    }
+    else{
+        ?>
+
+    <link rel="manifest" href="https://linkc09luckydraw22.com/manifest-<?php echo $_REQUEST['loc'];?>.json" />
+
+    <?php
+
+    }
       
     ?>
 
-    <link rel="manifest" href="https://linkc09luckydraw22.com/manifest-<?php echo $_REQUEST['loc'];?>.json" />
 
     <script type="text/javascript">
     if ('serviceWorker' in navigator) {
