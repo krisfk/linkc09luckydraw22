@@ -44,7 +44,7 @@ get_header(); ?>
 
 
     <div class="text-center" style="    position: absolute;
-    top: 30rem;
+    top: 35rem;
     width: 100%;">
         <!--  -->
         <a class="d-inline-block find-btn" href="javascript:void(0);"><img style="height:50px"
