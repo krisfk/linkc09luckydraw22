@@ -34,6 +34,7 @@
     <!-- <link rel="manifest" href="https://linkc09luckydraw22.com/manifest/manifest-YIT.json"> -->
     <!-- <link rel="prefetch" href="https://linkc09luckydraw22.com/manifest/manifest-YIT.json"> -->
 
+    <?php echo 999;?>
 
     <link rel="manifest" href="https://linkc09luckydraw22.com/manifest-<?php echo $_REQUEST['loc'];?>.json" />
 
