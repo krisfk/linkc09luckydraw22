@@ -37,8 +37,9 @@ get_header(); ?>
         <div class="tnc-txt-div text-start">
 
             <div class="tnc-txt-div-inner">
+                <?php echo get_the_content();?>
 
-                <h1 class="text-center">「勁抽消費二重賞」抽獎活動條款與細則</h1><br>
+                <!-- <h1 class="text-center">「勁抽消費二重賞」抽獎活動條款與細則</h1><br>
 
                 <ol class="ps-3">
                     <li> 「勁抽消費二重賞」(「活動」)由領展資產管理有限公司(「主辦單位」)舉辦；</li>
@@ -189,7 +190,7 @@ get_header(); ?>
 
 
 
-                </ol>
+                </ol> -->
                 <!-- <ol class="ps-3">
                     <li> 「勁抽消費二重賞」(「活動」)由領展資產管理有限公司(「主辦單位」)舉辦 ；</li>
                     <li> 透過參加活動，參加者被視為已同意此等條款及細則；</li>
