@@ -525,9 +525,13 @@ h1 {
 }
 
 html {
-    overscroll-behavior-x: none !important;
+    /* overscroll-behavior-x: none !important; */
+    margin: 0 !important;
+    overscroll-behavior: none !important;
 }
 
 body {
-    overscroll-behavior-x: none !important;
+    /* overscroll-behavior-x: none !important; */
+    margin: 0 !important;
+    overscroll-behavior: none !important;
 }
