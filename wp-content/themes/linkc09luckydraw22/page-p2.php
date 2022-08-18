@@ -457,7 +457,7 @@ get_header(); ?>
     <img class="d-none" src="url(https://linkc09luckydraw22.com/wp-content/uploads/2022/07/tick-icon.png) !important"
         alt="">
 
-    <div class="raffle-number">推廣生意的競賽牌照號碼：xxxxx</div>
+    <div class="raffle-number">推廣生意的競賽牌照號碼：55986, 55987</div>
 
 
 </div>

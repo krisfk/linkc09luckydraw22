@@ -162,7 +162,7 @@ if(!get_field('prize_name',$bingo_prize_post_id))
     </div>
 
 
-    <div class="raffle-number">推廣生意的競賽牌照號碼：xxxxx</div>
+    <div class="raffle-number">推廣生意的競賽牌照號碼：55986, 55987</div>
 
 </div>
 

@@ -92,7 +92,7 @@ get_header(); ?>
                     </td>
                     <td><input maxlength="4" id="tel-four-num" type="text" class="form-control"
                             placeholder="如6234-5678，請填6234">
-                        <div class="error">*請確定已輸入登記電話頭4位數宇</div>
+                        <div class="error">*請確定已輸入登記電話頭4位數字</div>
                     </td>
                 </tr>
             </table>
@@ -105,7 +105,7 @@ get_header(); ?>
     </div>
 
 
-    <div class="raffle-number">推廣生意的競賽牌照號碼：xxxxx</div>
+    <div class="raffle-number">推廣生意的競賽牌照號碼：55986, 55987</div>
 
 
 

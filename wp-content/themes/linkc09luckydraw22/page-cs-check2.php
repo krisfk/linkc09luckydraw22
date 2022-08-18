@@ -138,7 +138,7 @@ if ( $the_query->have_posts() ) {
         <a class="d-inline-block find-btn" href="<?php echo get_site_url();?>/cs-check"><img style="height:50px"
                 src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_mobile_bk_btn.png" alt=""></a>
 
-        <div class="mt-3" style="font-size:12px;color:#7d797b">推廣生意的競賽牌照號碼：xxxx</div>
+        <div class="mt-3" style="font-size:12px;color:#7d797b">推廣生意的競賽牌照號碼：55986, 55987</div>
     </div>
 
 

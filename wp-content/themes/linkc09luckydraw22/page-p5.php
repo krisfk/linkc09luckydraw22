@@ -78,7 +78,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="raffle-number">推廣生意的競賽牌照號碼：xxxxx</div>
+    <div class="raffle-number">推廣生意的競賽牌照號碼：55986, 55987</div>
 
 
 </div>
