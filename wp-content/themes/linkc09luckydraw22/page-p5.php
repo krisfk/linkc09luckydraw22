@@ -43,8 +43,8 @@ get_header(); ?>
             <div class="text-center orange" style="font-size: 2.5rem;font-weight: bold;margin: 100px 0 0 0;">
                 會員號碼：<?php echo $_REQUEST['member_id'];?> <br>
                 多謝參與， <br>
-                <span style="font-size:1.6rem;font-weight:bold;">你已自動晉級「終極大抽獎」！</span>
-                <div style="font-size:1.6rem;font-weight:bold;">得獎結果將於2022年10月25日於領展網站公佈，敬請留意。</div>
+                <span style="font-size:2.5rem;font-weight:bold;">你已自動晉級「終極大抽獎」！</span>
+                <div style="font-size:1.4rem;">得獎結果將於2022年10月25日於領展網站公佈，敬請留意。</div>
 
             </div>
 
