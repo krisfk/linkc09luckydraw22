@@ -59,7 +59,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="mt-5"> <a href="javascript:void(0);" class="confirm-btn"><img style="height:80px"
-                        src="https://linkc09luckydraw22.com/wp-content/uploads/2022/07/img_confirm_btn.png" alt=""></a>
+                        src="https://linkc09luckydraw22.com/wp-content/uploads/2022/08/img_confirm_btn.png" alt=""></a>
             </div>
 
 
