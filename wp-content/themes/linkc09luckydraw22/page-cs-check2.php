@@ -77,7 +77,12 @@ if ( $the_query->have_posts() ) {
 
                         <br><br>
 
-                        <?php echo get_field('reward_datetime')?> <?php echo get_field('reward_place');?>
+                        <?php echo get_field('reward_datetime')?> <?php 
+                        
+                        
+                        echo get_field('reward_place') =='AT' ? 'OT':get_field('reward_place');
+                        
+                        ?>
 
                     </td>
                 </tr>
