@@ -39,7 +39,10 @@ get_header(); ?>
             <a href="?show=HT">HT</a>
         </li> -->
         <li>
-            <a href="?show=AT">AT</a>
+            <a href="?show=AT">
+                <!-- AT -->
+                OT
+            </a>
         </li>
         <li>
             <a href="?show=WT">WT</a>
@@ -119,7 +122,16 @@ if ( $the_query->have_posts() ):
             
             ?></td>
             <td><?php echo get_field('reward_datetime');?></td>
-            <td><?php echo get_field('reward_place');?></td>
+            <td><?php 
+            if(get_field('reward_place')=='AT')
+            {
+                echo 'OT';
+            }
+            else {
+                echo get_field('reward_place');  
+            
+            }
+            //echo get_field('reward_place');?></td>
 
         </tr>
         <?php
