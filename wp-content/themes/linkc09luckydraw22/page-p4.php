@@ -17,7 +17,7 @@
 get_header();
 
 // echo get_field('no_stock_count_ot',101);
-echo 'test';
+// echo 'test';
 ?>
 
 <?php if ( is_home() && ! is_front_page() && ! empty( single_post_title( '', false ) ) ) : ?>
