@@ -17,7 +17,7 @@
 get_header();
 
 // echo get_field('no_stock_count_ot',101);
-
+echo 'test';
 ?>
 
 <?php if ( is_home() && ! is_front_page() && ! empty( single_post_title( '', false ) ) ) : ?>
@@ -94,7 +94,7 @@ if ( $the_query->have_posts() ) {
 
 
 
-if(!get_field('prize_name',$bingo_prize_post_id))
+if(!get_field('prize_name',$bingo_prize_post_id) || $total_index<=0)
 {
     // $('form').submit();
     wp_redirect(get_site_url().'/p5?loc='.$_REQUEST['loc'].'&member_id='.$_REQUEST['member_id'].'&member_tel='.$_REQUEST['member_tel']);   
