@@ -96,9 +96,7 @@ if ( $the_query->have_posts() ) {
 
 if(!get_field('prize_name',$bingo_prize_post_id) || $total_index<=0)
 {
-    // $('form').submit();
     wp_redirect(get_site_url().'/p5?loc='.$_REQUEST['loc'].'&member_id='.$_REQUEST['member_id'].'&member_tel='.$_REQUEST['member_tel']);   
-    // echo 'nonjo';
 }
 
 ?>

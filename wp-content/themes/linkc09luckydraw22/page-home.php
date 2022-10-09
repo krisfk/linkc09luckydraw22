@@ -22,8 +22,9 @@ get_header(); ?>
 </header><!-- .page-header -->
 <?php endif; ?>
 
+finished
 
-<div class="main-container">
+<!-- <div class="main-container">
 
     <div class="place d-none"><?php echo $_REQUEST['loc'];?></div>
 
@@ -34,7 +35,7 @@ get_header(); ?>
     </a>
 
     <div class="raffle-number">推廣生意的競賽牌照號碼：55986, 55987</div>
-</div>
+</div> -->
 
 <form method="post" action="<?php echo get_site_url();?>/p2">
     <input type="hidden" name="loc" value="<?php echo $_REQUEST['loc'];?>">
