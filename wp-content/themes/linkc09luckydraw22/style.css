@@ -545,3 +545,7 @@ body {
     display: inline-block;
     margin: 30px;
 }
+
+.list-img {
+    max-width: 100%;
+}
