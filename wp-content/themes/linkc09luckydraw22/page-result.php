@@ -24,29 +24,29 @@ get_header(); ?>
     </a>
 </div>
 
-<div class="container">
+<div class="container text-center">
 
-    <div>
+    <div class="mt-3">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_img.png" alt="">
     </div>
 
-    <div>
+    <div class="mt-3">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_w1.png" alt="">
 
     </div>
-    <div>
+    <div class="mt-3">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_1.png" alt="">
     </div>
-    <div>
+    <div class="mt-3">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_2.png" alt="">
     </div>
-    <div>
+    <div class="mt-3">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_3.png" alt="">
     </div>
-    <div>
+    <div class="mt-3">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_4.png" alt="">
     </div>
-    <div>
+    <div class="mt-3">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_5.png" alt="">
     </div>
 </div>
