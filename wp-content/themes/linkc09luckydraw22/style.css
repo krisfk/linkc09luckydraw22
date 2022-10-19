@@ -535,3 +535,8 @@ body {
     margin: 0 !important;
     overscroll-behavior: none !important;
 }
+
+.result-header {
+    height: 133px;
+    background: #fff;
+}
