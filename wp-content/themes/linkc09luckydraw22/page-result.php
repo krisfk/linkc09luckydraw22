@@ -17,9 +17,9 @@
 get_header(); ?>
 
 
-<div class="result-header">
+<div class="result-header text-center">
 
-
+    <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_logo.png" alt="">
 
 </div>
 
