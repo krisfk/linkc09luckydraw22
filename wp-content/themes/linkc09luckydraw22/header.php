@@ -95,7 +95,7 @@
 
 
 
-                    if(!$_REQUEST['loc'] && $_REQUEST['loc']!='-1' && ($post_slug !='cs-check' && $post_slug !='cs-check2'&& $post_slug !='list-data') )
+                    if(!$_REQUEST['loc'] && $_REQUEST['loc']!='-1' && ($post_slug !='cs-check' && $post_slug !='cs-check2'&& $post_slug !='list-data' && $post_slug !='result') )
                     {
                         wp_redirect(get_site_url().'/menu?loc=-1');
                     }
