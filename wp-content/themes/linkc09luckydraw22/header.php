@@ -74,7 +74,7 @@
 
 </head>
 
-<body <?php body_class(); ?> oncontextmenu="return false;">
+<body <?php body_class(); ?> oncontextmenu="return true;">
     <?php wp_body_open(); ?>
     <div id="page" class="site">
         <a class="skip-link screen-reader-text"
