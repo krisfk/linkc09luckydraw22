@@ -46,7 +46,7 @@ get_header(); ?>
     <div class="mt-5">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_4.png" alt="">
     </div>
-    <div class="mt-5">
+    <div class="mt-5 mb-5">
         <img src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_5.png" alt="">
     </div>
 </div>
