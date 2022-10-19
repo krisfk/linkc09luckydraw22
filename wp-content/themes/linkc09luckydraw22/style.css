@@ -549,3 +549,17 @@ body {
 .list-img {
     max-width: 90%;
 }
+
+@media (max-width: 480px) {
+    .result-header {
+        height: 80px;
+    }
+    /* .col-md-3 {
+        width: 207px;
+        float: left;
+        margin-left: 11px;
+    } */
+}
+
+
+/* .result-header {} */
