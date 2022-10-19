@@ -541,4 +541,7 @@ body {
     background: #fff;
 }
 
-.list-logo-a {}
+.list-logo-a {
+    display: inline-block;
+    margin: 30px;
+}
