@@ -554,6 +554,9 @@ body {
     .result-header {
         height: 80px;
     }
+    .result-header a img {
+        height: 80px;
+    }
     /* .col-md-3 {
         width: 207px;
         float: left;
