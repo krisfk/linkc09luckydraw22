@@ -61,10 +61,10 @@ $(function() {
 
     adjust();
 
-    $(window).resize(function() {
-        adjust();
+    // $(window).resize(function() {
+    //     adjust();
 
-    })
+    // })
 
 
 })
