@@ -551,7 +551,7 @@ body {
 }
 
 .list-img-w2 {
-    display: block;
+    display: inline-block;
 }
 
 .list-img-w1 {
@@ -560,7 +560,7 @@ body {
 
 @media (max-width: 480px) {
     .list-img-w1 {
-        display: block;
+        display: inline-block;
     }
     .list-img-w2 {
         display: none;
