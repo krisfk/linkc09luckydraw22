@@ -54,6 +54,21 @@ get_header(); ?>
     </div>
 </div>
 
+
+<script type="text/javascript">
+$(function() {
+
+
+    if ($(window).width() >= 480) {
+        for (i = 0; i < $('.list-img').length; i++) {
+            $('.list-img').eq(i).width($('.list-img').eq(i).width() * 0.7)
+        }
+    }
+
+
+
+})
+</script>
 <?php
 
 get_footer();
