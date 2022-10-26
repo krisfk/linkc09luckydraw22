@@ -550,7 +550,21 @@ body {
     max-width: 90%;
 }
 
+.list-img-w2 {
+    display: none;
+}
+
+.list-img-w1 {
+    display: block;
+}
+
 @media (max-width: 480px) {
+    .list-img-w1 {
+        display: none;
+    }
+    .list-img-w2 {
+        display: block;
+    }
     .result-header {
         height: 80px;
     }
