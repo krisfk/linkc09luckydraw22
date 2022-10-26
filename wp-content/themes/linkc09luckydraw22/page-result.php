@@ -59,15 +59,27 @@ get_header(); ?>
 $(function() {
 
 
+    adjust();
+
+    $(window).resize(function() {
+        adjust();
+
+    })
+
+
+})
+
+function adjust() {
     if ($(window).width() >= 480) {
         for (i = 0; i < $('.list-img').length; i++) {
             $('.list-img').eq(i).width($('.list-img').eq(i).width() * 0.7)
         }
+    } else {
+        for (i = 0; i < $('.list-img').length; i++) {
+            $('.list-img').eq(i).removeAttr('style');
+        }
     }
-
-
-
-})
+}
 </script>
 <?php
 
