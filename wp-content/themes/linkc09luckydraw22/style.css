@@ -551,19 +551,19 @@ body {
 }
 
 .list-img-w2 {
-    display: none;
+    display: block;
 }
 
 .list-img-w1 {
-    display: block;
+    display: none;
 }
 
 @media (max-width: 480px) {
     .list-img-w1 {
-        display: none;
+        display: block;
     }
     .list-img-w2 {
-        display: block;
+        display: none;
     }
     .result-header {
         height: 80px;
