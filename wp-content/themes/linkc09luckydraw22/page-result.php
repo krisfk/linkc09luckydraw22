@@ -26,30 +26,30 @@ get_header(); ?>
 
 <div class="container text-center">
 
-    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 ">
+    <div class="mt-lg-4 mt-md-4 mt-sm-4 mt-3 ">
         <img class="list-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_img.png" alt="">
     </div>
 
-    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 ">
+    <div class="mt-lg-4 mt-md-4 mt-sm-4 mt-3 ">
         <img class="list-img list-img-w1" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_w1.png"
             alt="">
         <img class="list-img list-img-w2" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_w2.png"
             alt="">
 
     </div>
-    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 ">
+    <div class="mt-lg-4 mt-md-4 mt-sm-4 mt-3 ">
         <img class="list-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_1.png" alt="">
     </div>
-    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 ">
+    <div class="mt-lg-4 mt-md-4 mt-sm-4 mt-3 ">
         <img class="list-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_2.png" alt="">
     </div>
-    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 ">
+    <div class="mt-lg-4 mt-md-4 mt-sm-4 mt-3 ">
         <img class="list-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_3.png" alt="">
     </div>
-    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4 ">
+    <div class="mt-lg-4 mt-md-4 mt-sm-4 mt-3 ">
         <img class="list-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_4.png" alt="">
     </div>
-    <div class="mt-lg-5 mt-md-5 mt-sm-4 mt-4  mb-5">
+    <div class="mt-lg-4 mt-md-4 mt-sm-4 mt-3  mb-5">
         <img class="list-img" src="https://linkc09luckydraw22.com/wp-content/uploads/2022/10/list_5.png" alt="">
     </div>
 </div>
